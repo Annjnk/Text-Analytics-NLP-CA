@@ -1,0 +1,152 @@
+[
+  {
+    "run_started_utc": "2026-10-23T12:47:52+00:00",
+    "chatbot": "gemini-3.8-flash",
+    "provider": "gemini",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_output_tokens": 2048,
+      "seed": "replicate number (1..2)",
+      "system_prompt": null
+    },
+    "prompts_csv_sha256_16": "0903ae8a400c1bc3",
+    "model_info": {
+      "resource_name": "models/gemini-3.8-flash",
+      "display_name": "Gemini 3.8 Flash",
+      "version": "3.0",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536
+    }
+  },
+  {
+    "run_started_utc": "2026-10-23T12:47:52+00:00",
+    "chatbot": "llama3.1:8b",
+    "provider": "ollama",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_output_tokens": 2048,
+      "seed": "replicate number (1..2)",
+      "system_prompt": null
+    },
+    "prompts_csv_sha256_16": "0903ae8a400c1bc3",
+    "model_info": {
+      "server_version": "0.40.9",
+      "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "modified_at": "2026-10-23T12:01:45.766783729+01:00"
+    }
+  },
+  {
+    "run_started_utc": "2026-10-23T12:54:58+00:00",
+    "chatbot": "gemini-3.8-flash",
+    "provider": "gemini",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_output_tokens": 2048,
+      "seed": "replicate number (1..2)",
+      "system_prompt": null
+    },
+    "prompts_csv_sha256_16": "0903ae8a400c1bc3",
+    "model_info": {
+      "resource_name": "models/gemini-3.8-flash",
+      "display_name": "Gemini 3.8 Flash",
+      "version": "3.0",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536
+    }
+  },
+  {
+    "run_started_utc": "2026-10-23T12:54:58+00:00",
+    "chatbot": "llama3.1:8b",
+    "provider": "ollama",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_output_tokens": 2048,
+      "seed": "replicate number (1..2)",
+      "system_prompt": null
+    },
+    "prompts_csv_sha256_16": "0903ae8a400c1bc3",
+    "model_info": {
+      "server_version": "0.40.9",
+      "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+      "model_details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "llama",
+        "families": [
+          "llama"
+        ],
+        "parameter_size": "8.0B",
+        "quantization_level": "Q4_K_M"
+      },
+      "modified_at": "2026-10-23T12:01:45.766783729+01:00"
+    }
+  },
+  {
+    "run_started_utc": "2026-10-23T15:11:40+00:00",
+    "chatbot": "qwen3.5:9b",
+    "provider": "ollama",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_output_tokens": 2048,
+      "seed": "replicate number (1..2)",
+      "system_prompt": null
+    },
+    "prompts_csv_sha256_16": "0903ae8a400c1bc3",
+    "model_info": {
+      "server_version": "0.40.9",
+      "model_digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+      "model_details": {
+        "parent_model": "",
+        "format": "safetensors",
+        "family": "qwen3_5",
+        "families": null,
+        "parameter_size": "9.7B",
+        "quantization_level": "nvfp4",
+        "runner": "mlx"
+      },
+      "modified_at": "2026-10-23T16:09:45.278830602+01:00"
+    }
+  },
+  {
+    "run_started_utc": "2026-10-23T15:13:15+00:00",
+    "chatbot": "qwen3.5:9b",
+    "provider": "ollama",
+    "settings": {
+      "temperature": 0.7,
+      "top_p": 0.95,
+      "max_output_tokens": 2048,
+      "seed": "replicate number (1..2)",
+      "system_prompt": null
+    },
+    "prompts_csv_sha256_16": "0903ae8a400c1bc3",
+    "model_info": {
+      "server_version": "0.40.9",
+      "model_digest": "d63f830f28d515fefea546f213fca7a75e9dd5176ef51a6deabc952d1c99a911",
+      "model_details": {
+        "parent_model": "",
+        "format": "safetensors",
+        "family": "qwen3_5",
+        "families": null,
+        "parameter_size": "9.7B",
+        "quantization_level": "nvfp4",
+        "runner": "mlx"
+      },
+      "modified_at": "2026-10-23T16:09:45.278830602+01:00"
+    }
+  }
+]
