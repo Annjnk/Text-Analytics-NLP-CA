@@ -1,0 +1,75 @@
+{
+  "dataset": "brewcoua/genai-gdelt-framing (CC BY 4.0)",
+  "settings": {
+    "months": [
+      "2026-04",
+      "2026-06"
+    ],
+    "regions": [
+      "US",
+      "UK",
+      "EU"
+    ],
+    "n_full": 900,
+    "max_per_outlet": 15,
+    "min_words": 150,
+    "seed": 42
+  },
+  "selection_steps": [
+    [
+      "all articles",
+      1116091
+    ],
+    [
+      "months 2026-04 to 2026-06",
+      76830
+    ],
+    [
+      "regions US, UK, EU",
+      37497
+    ],
+    [
+      "unique URLs",
+      36959
+    ],
+    [
+      "EU: likely-English domains",
+      27039
+    ],
+    [
+      "max 15 per outlet",
+      21996
+    ],
+    [
+      "full sample",
+      900
+    ]
+  ],
+  "cleaning_steps": [
+    [
+      "scraped",
+      900
+    ],
+    [
+      "usable text",
+      540
+    ],
+    [
+      "<= 3000 words",
+      514
+    ],
+    [
+      "on-topic",
+      47
+    ],
+    [
+      "no duplicates",
+      45
+    ]
+  ],
+  "access_dates": [
+    "2026-10-19T17:34:31.534393+00:00",
+    "2026-10-20T12:53:14.577565+00:00"
+  ],
+  "on_topic_rule": ">= 2 AI words and >= 2 regulation words"
+}
