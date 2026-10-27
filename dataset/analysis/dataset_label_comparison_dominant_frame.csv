@@ -1,0 +1,8 @@
+label,n_reference,n_checked,true_positive,precision,recall,f1
+innovation_opportunity,51,44,14,0.318,0.275,0.295
+risk_safety,61,103,37,0.359,0.607,0.451
+regulation_governance,106,52,20,0.385,0.189,0.253
+rights_privacy,35,27,11,0.407,0.314,0.355
+economy_labour,44,62,24,0.387,0.545,0.453
+misinformation_integrity,7,12,1,0.083,0.143,0.105
+none,0,4,0,0.0,,

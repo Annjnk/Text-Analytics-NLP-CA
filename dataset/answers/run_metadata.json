@@ -17,7 +17,13 @@
       "version": "3.0",
       "input_token_limit": 1048576,
       "output_token_limit": 65536
-    }
+    },
+    "run_type": "smoke test (first 2 prompts)",
+    "status": "abandoned",
+    "status_reason": "Free-tier daily quota (20 requests per day for this model) was reached after 21 answers in total (4 in the smoke test, 17 in the full run), so qwen3.5:9b replaced it as the second chatbot.",
+    "answers_collected_in_this_run": 4,
+    "answers_used_in_analysis": 0,
+    "annotated_on": "2026-10-27"
   },
   {
     "run_started_utc": "2026-10-23T12:47:52+00:00",
@@ -45,7 +51,8 @@
         "quantization_level": "Q4_K_M"
       },
       "modified_at": "2026-10-23T12:01:45.766783729+01:00"
-    }
+    },
+    "run_type": "smoke test (first 2 prompts)"
   },
   {
     "run_started_utc": "2026-10-23T12:54:58+00:00",
@@ -65,7 +72,13 @@
       "version": "3.0",
       "input_token_limit": 1048576,
       "output_token_limit": 65536
-    }
+    },
+    "run_type": "full run",
+    "status": "abandoned",
+    "status_reason": "Free-tier daily quota (20 requests per day for this model) was reached after 21 answers in total (4 in the smoke test, 17 in the full run), so qwen3.5:9b replaced it as the second chatbot.",
+    "answers_collected_in_this_run": 17,
+    "answers_used_in_analysis": 0,
+    "annotated_on": "2026-10-27"
   },
   {
     "run_started_utc": "2026-10-23T12:54:58+00:00",
@@ -93,7 +106,8 @@
         "quantization_level": "Q4_K_M"
       },
       "modified_at": "2026-10-23T12:01:45.766783729+01:00"
-    }
+    },
+    "run_type": "full run"
   },
   {
     "run_started_utc": "2026-10-23T15:11:40+00:00",
@@ -120,7 +134,8 @@
         "runner": "mlx"
       },
       "modified_at": "2026-10-23T16:09:45.278830602+01:00"
-    }
+    },
+    "run_type": "smoke test (first 2 prompts)"
   },
   {
     "run_started_utc": "2026-10-23T15:13:15+00:00",
@@ -147,6 +162,7 @@
         "runner": "mlx"
       },
       "modified_at": "2026-10-23T16:09:45.278830602+01:00"
-    }
+    },
+    "run_type": "full run"
   }
 ]

@@ -1,0 +1,7 @@
+chatbot,wording,innovation_opportunity,risk_safety,regulation_governance,rights_privacy,economy_labour,misinformation_integrity
+llama3.1:8b,leaning_against,0.241,0.193,0.28,0.081,0.145,0.06
+llama3.1:8b,leaning_for,0.168,0.253,0.218,0.125,0.168,0.069
+llama3.1:8b,neutral,0.252,0.244,0.233,0.085,0.133,0.053
+qwen3.5:9b,leaning_against,0.183,0.244,0.324,0.048,0.168,0.033
+qwen3.5:9b,leaning_for,0.165,0.256,0.276,0.089,0.124,0.09
+qwen3.5:9b,neutral,0.176,0.283,0.307,0.063,0.109,0.063

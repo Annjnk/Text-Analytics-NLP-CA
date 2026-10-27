@@ -2,18 +2,21 @@
   "dataset": "brewcoua/genai-gdelt-framing (CC BY 4.0)",
   "settings": {
     "months": [
-      "2026-04",
+      "2025-07",
       "2026-06"
     ],
     "regions": [
       "US",
       "UK",
-      "EU"
+      "EU",
+      "Other"
     ],
-    "n_full": 900,
+    "n_per_region": 600,
     "max_per_outlet": 15,
     "min_words": 150,
-    "seed": 42
+    "max_words": 3000,
+    "seed": 42,
+    "ai_slug_filter": "\\b(?:ai|artificial intelligence|chatbots?|chatgpt|openai|llms?|gemini|claude|anthropic|deepfakes?|generative|copilot)\\b"
   },
   "selection_steps": [
     [
@@ -21,55 +24,64 @@
       1116091
     ],
     [
-      "months 2026-04 to 2026-06",
-      76830
+      "months 2025-07 to 2026-06",
+      314876
     ],
     [
-      "regions US, UK, EU",
-      37497
+      "regions US, UK, EU, Other",
+      314876
     ],
     [
       "unique URLs",
-      36959
+      309066
     ],
     [
-      "EU: likely-English domains",
-      27039
+      "AI word in URL path",
+      37832
+    ],
+    [
+      "EU/Other: likely-English domains",
+      33206
     ],
     [
       "max 15 per outlet",
-      21996
+      17952
     ],
     [
       "full sample",
-      900
+      2360
     ]
   ],
   "cleaning_steps": [
     [
       "scraped",
-      900
+      2360
     ],
     [
       "usable text",
-      540
+      1564
     ],
     [
       "<= 3000 words",
-      514
+      1535
     ],
     [
       "on-topic",
-      47
+      504
     ],
     [
       "no duplicates",
-      45
+      420
     ]
   ],
+  "pilot": {
+    "usable": 0.65,
+    "on_topic": 0.21666666666666667
+  },
   "access_dates": [
-    "2026-10-19T17:34:31.534393+00:00",
-    "2026-10-20T12:53:14.577565+00:00"
+    "2026-10-26T21:23:39.082354+00:00",
+    "2026-10-27T10:36:28.170625+00:00"
   ],
-  "on_topic_rule": ">= 2 AI words and >= 2 regulation words"
+  "on_topic_rule": ">= 2 AI words and >= 2 regulation words",
+  "limitation": "URL-slug pre-filter selects articles that name AI in the URL."
 }

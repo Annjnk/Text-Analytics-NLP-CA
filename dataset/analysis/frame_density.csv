@@ -1,0 +1,18 @@
+view,n_texts,share_under_3_hits,share_under_5_hits,share_under_8_hits,hits_mean,hits_median,hits_per_100w_mean,hits_per_100w_median
+Llama,108,0.0,0.0,0.056,15.583,16.0,6.961,6.798
+Qwen,108,0.0,0.0,0.0,26.352,27.5,9.175,9.36
+news (300-word cut),420,0.117,0.257,0.493,8.262,8.0,2.768,2.667
+news (300-word cut) | US,133,0.128,0.271,0.519,8.008,7.0,2.682,2.333
+news (300-word cut) | UK,101,0.069,0.188,0.455,8.891,8.0,3.004,2.667
+news (300-word cut) | EU,82,0.11,0.232,0.427,8.646,8.0,2.885,2.667
+news (300-word cut) | Other,104,0.154,0.327,0.548,7.673,7.0,2.558,2.333
+news (length-matched to Llama),420,0.183,0.386,0.674,6.217,5.0,2.803,2.449
+news (length-matched to Llama) | US,133,0.195,0.414,0.707,5.91,5.0,2.693,2.315
+news (length-matched to Llama) | UK,101,0.129,0.317,0.653,6.772,6.0,3.067,2.551
+news (length-matched to Llama) | EU,82,0.183,0.402,0.598,6.549,5.5,2.935,2.415
+news (length-matched to Llama) | Other,104,0.221,0.404,0.712,5.808,5.0,2.584,2.435
+news (length-matched to Qwen),420,0.131,0.271,0.519,7.933,7.0,2.762,2.505
+news (length-matched to Qwen) | US,133,0.135,0.293,0.556,7.692,7.0,2.668,2.335
+news (length-matched to Qwen) | UK,101,0.079,0.198,0.485,8.564,8.0,3.016,2.667
+news (length-matched to Qwen) | EU,82,0.122,0.244,0.451,8.341,8.0,2.891,2.692
+news (length-matched to Qwen) | Other,104,0.183,0.337,0.558,7.308,6.5,2.535,2.321

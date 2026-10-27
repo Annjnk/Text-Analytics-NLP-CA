@@ -1,0 +1,14 @@
+{
+  "_note": "Single place for data paths. All paths are relative to the repo root. Every notebook reads them from here.",
+  "parquet": "data/genai_gdelt_articles.parquet",
+  "news_corpus_csv": "data/news_clean.csv",
+  "scraped_csv": "data/scraped.csv",
+  "urls_full_csv": "dataset/news/urls_full.csv",
+  "urls_pilot_csv": "dataset/news/urls_pilot.csv",
+  "corpus_log_json": "dataset/news/corpus_log.json",
+  "corpus_manifest_json": "dataset/news/corpus_manifest.json",
+  "answers_jsonl": "dataset/answers/answers.jsonl",
+  "prompts_csv": "dataset/prompts.csv",
+  "lexicon_json": "dataset/frames/frame_keywords.json",
+  "analysis_dir": "dataset/analysis"
+}

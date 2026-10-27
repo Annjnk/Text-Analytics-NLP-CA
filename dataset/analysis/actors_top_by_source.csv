@@ -1,0 +1,128 @@
+source,rank,actor,category,texts_mentioning,share_of_texts_%,mentions,n_texts_in_source
+chatbot: Llama,1,China,state / regulator,2,1.9,2,108
+chatbot: Llama,2,Amazon,company,2,1.9,2,108
+chatbot: Llama,3,Google,company,2,1.9,2,108
+chatbot: Llama,4,Stricter AI,person,2,1.9,2,108
+chatbot: Llama,5,European Union,state / regulator,1,0.9,1,108
+chatbot: Llama,6,United States,state / regulator,1,0.9,1,108
+chatbot: Llama,7,Uighur Muslims,person,1,0.9,1,108
+chatbot: Llama,8,Microsoft,company,1,0.9,1,108
+chatbot: Llama,9,Alexa,other organisation,1,0.9,1,108
+chatbot: Llama,10,Governmental,other organisation,1,0.9,1,108
+chatbot: Llama,11,Labeling AI-generated,person,1,0.9,1,108
+chatbot: Qwen,1,Microsoft,company,1,0.9,1,108
+chatbot: Qwen,2,Google,company,1,0.9,1,108
+chatbot: Qwen,3,Healthcare,other organisation,1,0.9,1,108
+chatbot: Qwen,4,European Union,state / regulator,1,0.9,1,108
+news: EU,1,United States,state / regulator,16,19.5,30,82
+news: EU,2,OpenAI,company,14,17.1,18,82
+news: EU,3,European Union,state / regulator,14,17.1,33,82
+news: EU,4,France,country / place,14,17.1,15,82
+news: EU,5,Microsoft,company,13,15.9,30,82
+news: EU,6,Google,company,12,14.6,20,82
+news: EU,7,United Kingdom,state / regulator,10,12.2,20,82
+news: EU,8,Elon Musk,person,9,11.0,16,82
+news: EU,9,Meta,company,8,9.8,31,82
+news: EU,10,India,country / place,7,8.5,11,82
+news: EU,11,European Commission,state / regulator,6,7.3,8,82
+news: EU,12,Malaysia,country / place,6,7.3,8,82
+news: EU,13,California,country / place,6,7.3,6,82
+news: EU,14,Amazon,company,6,7.3,7,82
+news: EU,15,Apple,company,5,6.1,10,82
+news: EU,16,Associated Press,news media,5,6.1,5,82
+news: EU,17,Reuters,news media,4,4.9,5,82
+news: EU,18,Mythos,person,4,4.9,8,82
+news: EU,19,Anthropic,company,4,4.9,5,82
+news: EU,20,Grok Imagine,person,4,4.9,4,82
+news: Other,1,Google,company,21,20.2,37,104
+news: Other,2,Microsoft,company,20,19.2,57,104
+news: Other,3,OpenAI,company,15,14.4,20,104
+news: Other,4,India,country / place,13,12.5,25,104
+news: Other,5,Anthropic,company,10,9.6,11,104
+news: Other,6,Elon Musk,person,8,7.7,12,104
+news: Other,7,United States,state / regulator,7,6.7,11,104
+news: Other,8,MCP,other organisation,6,5.8,27,104
+news: Other,9,Fri,person,5,4.8,5,104
+news: Other,10,API,other organisation,5,4.8,10,104
+news: Other,11,Cursor,country / place,5,4.8,7,104
+news: Other,12,GitHub Copilot,other organisation,5,4.8,5,104
+news: Other,13,Infosys,other organisation,4,3.8,15,104
+news: Other,14,Microsoft 365 Copilot,other organisation,4,3.8,15,104
+news: Other,15,United Kingdom,state / regulator,4,3.8,7,104
+news: Other,16,Perplexity,company,4,3.8,5,104
+news: Other,17,Bloomberg,news media,4,3.8,4,104
+news: Other,18,Indonesia,country / place,4,3.8,9,104
+news: Other,19,Malaysia,country / place,4,3.8,10,104
+news: Other,20,Nvidia,company,4,3.8,16,104
+news: UK,1,United Kingdom,state / regulator,48,47.5,91,101
+news: UK,2,Google,company,19,18.8,30,101
+news: UK,3,United States,state / regulator,19,18.8,42,101
+news: UK,4,Anthropic,company,13,12.9,19,101
+news: UK,5,Microsoft,company,13,12.9,25,101
+news: UK,6,OpenAI,company,10,9.9,13,101
+news: UK,7,London,country / place,10,9.9,12,101
+news: UK,8,Elon Musk,person,9,8.9,16,101
+news: UK,9,Getty,person,7,6.9,36,101
+news: UK,10,LONDON,country / place,6,5.9,7,101
+news: UK,11,Claude Mythos Preview,person,6,5.9,8,101
+news: UK,12,European Union,state / regulator,5,5.0,5,101
+news: UK,13,Associated Press,news media,5,5.0,5,101
+news: UK,14,Stable Diffusion,other organisation,5,5.0,7,101
+news: UK,15,Stability AI,other organisation,5,5.0,11,101
+news: UK,16,Getty Images,other organisation,5,5.0,8,101
+news: UK,17,Reuters,news media,5,5.0,7,101
+news: UK,18,Mythos,person,5,5.0,7,101
+news: UK,19,Stability,other organisation,4,4.0,11,101
+news: UK,20,Joanna Smith,person,4,4.0,4,101
+news: US,1,United States,state / regulator,56,42.1,101,133
+news: US,2,OpenAI,company,38,28.6,68,133
+news: US,3,Donald Trump,person,30,22.6,78,133
+news: US,4,Google,company,29,21.8,36,133
+news: US,5,Anthropic,company,25,18.8,44,133
+news: US,6,Microsoft,company,19,14.3,32,133
+news: US,7,California,country / place,17,12.8,23,133
+news: US,8,Pentagon,state / regulator,16,12.0,64,133
+news: US,9,Dario Amodei,person,10,7.5,22,133
+news: US,10,Pete Hegseth,person,10,7.5,10,133
+news: US,11,Elon Musk,person,10,7.5,19,133
+news: US,12,Defense,other organisation,9,6.8,9,133
+news: US,13,Meta,company,9,6.8,17,133
+news: US,14,US Congress,state / regulator,8,6.0,9,133
+news: US,15,US Senate,state / regulator,8,6.0,16,133
+news: US,16,San Francisco,country / place,8,6.0,8,133
+news: US,17,WASHINGTON,country / place,7,5.3,7,133
+news: US,18,White House,state / regulator,7,5.3,13,133
+news: US,19,New York,country / place,7,5.3,8,133
+news: US,20,Amazon,company,7,5.3,13,133
+news: all,1,United States,state / regulator,98,23.3,184,420
+news: all,2,Google,company,81,19.3,123,420
+news: all,3,OpenAI,company,77,18.3,119,420
+news: all,4,Microsoft,company,65,15.5,144,420
+news: all,5,United Kingdom,state / regulator,64,15.2,120,420
+news: all,6,Anthropic,company,52,12.4,79,420
+news: all,7,Donald Trump,person,38,9.0,89,420
+news: all,8,Elon Musk,person,36,8.6,63,420
+news: all,9,California,country / place,26,6.2,33,420
+news: all,10,India,country / place,25,6.0,44,420
+news: all,11,Meta,company,24,5.7,55,420
+news: all,12,European Union,state / regulator,21,5.0,40,420
+news: all,13,Pentagon,state / regulator,20,4.8,72,420
+news: all,14,Amazon,company,18,4.3,27,420
+news: all,15,France,country / place,18,4.3,19,420
+news: all,16,Associated Press,news media,15,3.6,17,420
+news: all,17,Reuters,news media,14,3.3,25,420
+news: all,18,Malaysia,country / place,14,3.3,23,420
+news: all,19,Pete Hegseth,person,13,3.1,13,420
+news: all,20,Apple,company,13,3.1,35,420
+chatbot: both,1,Google,company,3,1.4,3,216
+chatbot: both,2,China,state / regulator,2,0.9,2,216
+chatbot: both,3,European Union,state / regulator,2,0.9,2,216
+chatbot: both,4,Amazon,company,2,0.9,2,216
+chatbot: both,5,Microsoft,company,2,0.9,2,216
+chatbot: both,6,Stricter AI,person,2,0.9,2,216
+chatbot: both,7,United States,state / regulator,1,0.5,1,216
+chatbot: both,8,Uighur Muslims,person,1,0.5,1,216
+chatbot: both,9,Alexa,other organisation,1,0.5,1,216
+chatbot: both,10,Governmental,other organisation,1,0.5,1,216
+chatbot: both,11,Labeling AI-generated,person,1,0.5,1,216
+chatbot: both,12,Healthcare,other organisation,1,0.5,1,216

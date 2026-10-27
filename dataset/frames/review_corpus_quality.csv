@@ -1,0 +1,7 @@
+issue,chunks_affected,share
+subscription / sign-up / membership boilerplate,15,0.036
+leftover HTML tags,1,0.002
+garbled characters (mojibake),3,0.007
+dateline / share-widget text,11,0.026
+corpus articles that still satisfy the on-topic rule within their first 300 words,157,0.374
+"articles passing the regulation test only thanks to the ambiguous words (law, bill, ban, rule, policy) in the FULL text",161,0.383

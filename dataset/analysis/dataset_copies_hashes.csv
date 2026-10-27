@@ -1,0 +1,4 @@
+copy,exists,bytes,sha256
+repo (code reads this one),True,90425481,04759d58c2f7392a
+Desktop/NLP_CA/data,True,90425481,04759d58c2f7392a
+Downloads/data,True,90425481,04759d58c2f7392a

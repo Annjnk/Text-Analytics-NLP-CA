@@ -1,0 +1,6 @@
+view,n_texts,words_mean,words_median,words_sd,ks_vs_Llama,ks_vs_Qwen
+Llama,108,223.222,224.0,17.0,0.0,0.981
+Qwen,108,287.343,288.0,12.842,0.981,0.0
+news (300-word cut),420,299.005,300.0,9.514,0.988,0.604
+news (length-matched to Llama),420,222.493,222.0,16.72,0.041,0.986
+news (length-matched to Qwen),420,287.779,291.0,14.899,0.972,0.051

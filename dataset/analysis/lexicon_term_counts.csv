@@ -1,0 +1,209 @@
+frame,term,ambiguous,hits_chatbot,hits_news
+economy_labour,market,True,87,107
+economy_labour,economic,False,59,31
+economy_labour,industry,True,49,134
+economy_labour,competitive,False,38,12
+economy_labour,worker,False,36,39
+economy_labour,compete,False,30,10
+economy_labour,cost,True,30,53
+economy_labour,job,True,26,45
+economy_labour,invest,True,25,9
+economy_labour,competition,True,24,20
+economy_labour,automation,False,22,35
+economy_labour,investment,False,22,48
+economy_labour,profit,False,20,10
+economy_labour,economy,False,18,18
+economy_labour,dominate,False,14,6
+economy_labour,dominance,False,13,6
+economy_labour,displacement,False,12,1
+economy_labour,workforce,False,10,18
+economy_labour,productivity,False,10,31
+economy_labour,displace,False,9,2
+economy_labour,trade,True,9,17
+economy_labour,competitiveness,False,8,2
+economy_labour,monopoly,False,8,0
+economy_labour,unemployment,False,6,0
+economy_labour,labor,False,6,6
+economy_labour,relocate,False,6,1
+economy_labour,employment,False,4,7
+economy_labour,wage,False,4,1
+economy_labour,investor,False,4,30
+economy_labour,offshore,False,4,0
+economy_labour,revenue,False,3,29
+economy_labour,global race,False,3,0
+economy_labour,small business,False,2,15
+economy_labour,antitrust,False,1,6
+economy_labour,layoff,False,1,2
+economy_labour,outsource,False,1,2
+economy_labour,fall behind,False,1,1
+economy_labour,subsidy,False,1,1
+economy_labour,labour,False,0,4
+economy_labour,gdp,False,0,1
+economy_labour,tariff,False,0,2
+economy_labour,supply chain,False,0,39
+economy_labour,chip,True,0,14
+economy_labour,semiconductor,False,0,4
+economy_labour,export control,False,0,12
+economy_labour,trade union,False,0,3
+economy_labour,labour union,False,0,0
+economy_labour,labor union,False,0,0
+innovation_opportunity,innovation,False,224,63
+innovation_opportunity,potential,True,161,72
+innovation_opportunity,benefit,True,109,31
+innovation_opportunity,progress,True,79,13
+innovation_opportunity,beneficial,False,47,1
+innovation_opportunity,advancement,False,44,10
+innovation_opportunity,start up,False,42,9
+innovation_opportunity,startup,False,36,48
+innovation_opportunity,transformative,False,17,11
+innovation_opportunity,research and development,False,16,3
+innovation_opportunity,opportunity,False,11,32
+innovation_opportunity,breakthrough,False,11,12
+innovation_opportunity,creativity,False,10,7
+innovation_opportunity,thrive,False,9,5
+innovation_opportunity,creative,False,9,19
+innovation_opportunity,flourish,False,8,0
+innovation_opportunity,cut edge,False,7,3
+innovation_opportunity,experimentation,False,7,8
+innovation_opportunity,experiment,False,6,23
+innovation_opportunity,innovate,False,5,3
+innovation_opportunity,discovery,False,5,13
+innovation_opportunity,transform,False,2,39
+innovation_opportunity,innovative,False,1,6
+innovation_opportunity,new product,False,1,0
+innovation_opportunity,pioneer,False,0,9
+innovation_opportunity,unlock,False,0,20
+innovation_opportunity,invent,False,0,5
+innovation_opportunity,invention,False,0,3
+misinformation_integrity,false,True,57,15
+misinformation_integrity,misinformation,False,39,10
+misinformation_integrity,deepfake,False,23,58
+misinformation_integrity,integrity,False,21,13
+misinformation_integrity,disinformation,False,15,6
+misinformation_integrity,manipulation,False,12,8
+misinformation_integrity,deceptive,False,12,3
+misinformation_integrity,synthetic medium,False,11,2
+misinformation_integrity,fact check,False,9,0
+misinformation_integrity,election,True,7,11
+misinformation_integrity,public discourse,False,7,0
+misinformation_integrity,fabricate,False,6,8
+misinformation_integrity,propaganda,False,6,6
+misinformation_integrity,deceive,False,6,0
+misinformation_integrity,deception,False,6,2
+misinformation_integrity,fake,True,5,18
+misinformation_integrity,fabrication,False,5,0
+misinformation_integrity,credibility,False,5,4
+misinformation_integrity,authenticity,False,4,2
+misinformation_integrity,falsehood,False,3,0
+misinformation_integrity,hallucination,False,3,17
+misinformation_integrity,mislead,False,3,8
+misinformation_integrity,authentic,False,3,2
+misinformation_integrity,provenance,False,3,3
+misinformation_integrity,watermark,False,2,11
+misinformation_integrity,impersonate,False,2,0
+misinformation_integrity,fraud,False,2,17
+misinformation_integrity,hallucinate,False,1,6
+misinformation_integrity,fact checker,False,1,0
+misinformation_integrity,information ecosystem,False,0,0
+misinformation_integrity,impersonation,False,0,1
+misinformation_integrity,scam,False,0,6
+regulation_governance,accountability,False,132,17
+regulation_governance,regulatory,False,123,45
+regulation_governance,standard,True,123,38
+regulation_governance,transparency,False,120,23
+regulation_governance,framework,True,104,61
+regulation_governance,oversight,False,88,33
+regulation_governance,regulator,False,70,56
+regulation_governance,mandate,True,70,8
+regulation_governance,approval,True,54,18
+regulation_governance,accountable,False,53,7
+regulation_governance,liability,False,38,13
+regulation_governance,enforcement,False,32,9
+regulation_governance,jurisdiction,False,32,11
+regulation_governance,governance,False,32,68
+regulation_governance,compliance,False,31,56
+regulation_governance,mandatory,False,30,6
+regulation_governance,enforce,False,27,8
+regulation_governance,disclosure,True,24,15
+regulation_governance,international cooperation,False,21,1
+regulation_governance,authority,True,16,36
+regulation_governance,comply,False,10,13
+regulation_governance,liable,False,9,4
+regulation_governance,policymaker,False,8,9
+regulation_governance,audit,False,7,7
+regulation_governance,penalty,False,4,8
+regulation_governance,treaty,False,2,0
+regulation_governance,harmonize,False,2,1
+regulation_governance,legislation,False,2,19
+regulation_governance,legislate,False,2,1
+regulation_governance,certification,False,0,4
+regulation_governance,harmonise,False,0,0
+regulation_governance,legislature,False,0,2
+regulation_governance,statute,False,0,3
+regulation_governance,sanction,False,0,13
+regulation_governance,lawmaker,False,0,19
+rights_privacy,privacy,False,61,39
+rights_privacy,facial recognition,False,50,0
+rights_privacy,human review,False,38,4
+rights_privacy,personal datum,False,34,6
+rights_privacy,creator,False,22,23
+rights_privacy,surveillance,False,21,21
+rights_privacy,consent,True,19,10
+rights_privacy,dignity,False,18,7
+rights_privacy,human right,False,15,11
+rights_privacy,freedom,True,15,4
+rights_privacy,civil liberty,False,11,0
+rights_privacy,discrimination,False,8,4
+rights_privacy,fundamental right,False,7,0
+rights_privacy,intellectual property,False,7,14
+rights_privacy,discriminate,False,6,2
+rights_privacy,data protection,False,5,2
+rights_privacy,child,True,4,67
+rights_privacy,stereotype,False,3,1
+rights_privacy,profile,True,3,15
+rights_privacy,biometric,False,2,1
+rights_privacy,anonymize,False,2,1
+rights_privacy,marginalize,False,2,0
+rights_privacy,sensitive datum,False,1,3
+rights_privacy,civil right,False,0,4
+rights_privacy,equality,False,0,1
+rights_privacy,anonymise,False,0,1
+rights_privacy,marginalise,False,0,0
+rights_privacy,vulnerable group,False,0,0
+rights_privacy,due process,False,0,0
+rights_privacy,right to explanation,False,0,0
+rights_privacy,copyright,False,0,78
+rights_privacy,child safety,False,0,1
+risk_safety,safety,False,248,117
+risk_safety,risk,False,228,185
+risk_safety,harm,False,99,45
+risk_safety,security,True,65,199
+risk_safety,safeguard,False,54,54
+risk_safety,mitigate,False,49,10
+risk_safety,safe,True,43,37
+risk_safety,harmful,False,36,14
+risk_safety,unintended,False,36,1
+risk_safety,failure,True,33,14
+risk_safety,misuse,False,30,29
+risk_safety,high stake,False,28,10
+risk_safety,dangerous,False,23,12
+risk_safety,threat,False,23,57
+risk_safety,catastrophic,False,22,9
+risk_safety,vulnerability,False,18,60
+risk_safety,accident,False,17,3
+risk_safety,reliability,False,16,10
+risk_safety,danger,False,10,12
+risk_safety,unpredictable,False,9,3
+risk_safety,malfunction,False,7,1
+risk_safety,existential,False,7,5
+risk_safety,weapon,False,6,23
+risk_safety,cybersecurity,False,6,49
+risk_safety,mitigation,False,5,2
+risk_safety,cyberattack,False,5,13
+risk_safety,hazard,False,4,0
+risk_safety,injury,False,3,2
+risk_safety,fatal,False,3,1
+risk_safety,adverse,False,2,2
+risk_safety,unsafe,False,1,0
+risk_safety,robustness,False,1,0
+risk_safety,catastrophe,False,0,0

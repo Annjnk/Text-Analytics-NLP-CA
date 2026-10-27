@@ -1,0 +1,8 @@
+reference,innovation_opportunity,risk_safety,regulation_governance,rights_privacy,economy_labour,misinformation_integrity,none
+innovation_opportunity,14,11,12,1,11,2,0
+risk_safety,4,37,7,6,7,0,0
+regulation_governance,14,37,20,8,19,7,1
+rights_privacy,5,10,5,11,1,1,2
+economy_labour,6,6,7,0,24,1,0
+misinformation_integrity,1,2,1,1,0,1,1
+none,0,0,0,0,0,0,0

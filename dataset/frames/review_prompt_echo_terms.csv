@@ -1,0 +1,11 @@
+frame,term,hits_chatbot,hits_in_answers_whose_prompt_has_the_term,echo_share
+innovation_opportunity,start up,42,42,1.0
+rights_privacy,human review,38,38,1.0
+rights_privacy,personal datum,34,33,0.97
+economy_labour,worker,36,34,0.94
+rights_privacy,facial recognition,50,45,0.9
+regulation_governance,approval,54,45,0.83
+misinformation_integrity,false,57,37,0.65
+risk_safety,high stake,28,14,0.5
+regulation_governance,regulator,70,32,0.46
+economy_labour,market,87,36,0.41
