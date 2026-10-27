@@ -1,0 +1,76 @@
+region,ngram,count,answers
+all,artificial intelligence,270,206
+all,microsoft copilot,66,40
+all,elon musk,58,42
+all,language model,57,46
+all,social medium,46,41
+all,google gemini,44,39
+all,supply chain,39,22
+all,anthropic say,33,23
+all,claude mythos,33,16
+all,claude code,33,22
+all,united states,32,27
+all,sexually explicit,32,22
+all,donald trump,29,26
+all,mental health,29,12
+all,year old,28,21
+US,artificial intelligence,85,69
+US,donald trump,27,24
+US,mental health,25,9
+US,president donald,24,23
+US,president donald trump,24,23
+US,supply chain,22,15
+US,language model,22,14
+US,national security,19,12
+US,supply chain risk,19,12
+US,chain risk,19,12
+US,united states,19,17
+US,elon musk,17,12
+US,google gemini,17,16
+US,trump administration,16,14
+US,dario amodei,14,10
+UK,artificial intelligence,65,48
+UK,claude mythos,22,10
+UK,stable diffusion,21,6
+UK,elon musk,20,12
+UK,microsoft copilot,13,10
+UK,image generation,12,7
+UK,language model,11,9
+UK,mythos preview,11,6
+UK,west midlands,10,3
+UK,west midlands police,10,3
+UK,sexually explicit,10,8
+UK,law firm,10,5
+UK,midlands police,10,3
+UK,claude mythos preview,10,6
+UK,getty images,9,5
+EU,artificial intelligence,62,43
+EU,social medium,14,13
+EU,open source,12,6
+EU,language model,11,10
+EU,sexually explicit,10,8
+EU,european union,10,10
+EU,image woman,9,5
+EU,elon musk,9,9
+EU,microsoft copilot,9,5
+EU,european commission,8,6
+EU,social medium platform,7,7
+EU,chatbot grok,7,7
+EU,real world,7,6
+EU,medium platform,7,7
+EU,google gemini,6,6
+Other,artificial intelligence,58,46
+Other,microsoft copilot,31,13
+Other,claude code,17,11
+Other,google cloud,14,5
+Other,google gemini,14,12
+Other,anthropic claude,13,13
+Other,language model,13,13
+Other,elon musk,12,9
+Other,claude opus,11,3
+Other,anthropic say,10,7
+Other,sexually explicit,10,4
+Other,grok chatbot,9,7
+Other,autonomous agent,9,8
+Other,gemini enterprise,9,4
+Other,multi step,9,7
