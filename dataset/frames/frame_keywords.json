@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "written_before_scoring": true,
   "matching": "spaCy lemmas, lower-case, alphabetic tokens; multi-word terms are matched as consecutive lemmas",
   "design_notes": [
@@ -55,7 +55,6 @@
       "hazard",
       "threat",
       "catastrophic",
-      "catastrophe",
       "accident",
       "malfunction",
       "failure",
@@ -76,7 +75,8 @@
       "robustness",
       "adverse",
       "security",
-      "cybersecurity"
+      "cybersecurity",
+      "guardrail"
     ],
     "regulation_governance": [
       "regulator",
@@ -96,7 +96,6 @@
       "framework",
       "treaty",
       "international cooperation",
-      "harmonise",
       "harmonize",
       "jurisdiction",
       "legislation",
@@ -113,7 +112,12 @@
       "liability",
       "liable",
       "approval",
-      "disclosure"
+      "disclosure",
+      "legislative",
+      "oversee",
+      "lawsuit",
+      "human intervention",
+      "restriction"
     ],
     "rights_privacy": [
       "privacy",
@@ -136,18 +140,15 @@
       "sensitive data",
       "anonymise",
       "anonymize",
-      "marginalise",
       "marginalize",
-      "vulnerable group",
       "human review",
-      "due process",
-      "right to explanation",
       "copyright",
       "intellectual property",
       "creator",
       "child",
       "child safety",
-      "profiling"
+      "profiling",
+      "anonymity"
     ],
     "economy_labour": [
       "economy",
@@ -195,9 +196,7 @@
       "semiconductor",
       "export control",
       "subsidy",
-      "trade union",
-      "labour union",
-      "labor union"
+      "trade union"
     ],
     "misinformation_integrity": [
       "misinformation",
@@ -225,7 +224,6 @@
       "integrity",
       "election",
       "public discourse",
-      "information ecosystem",
       "synthetic media",
       "impersonate",
       "impersonation",
@@ -261,7 +259,8 @@
     "security",
     "profiling",
     "child",
-    "chip"
+    "chip",
+    "restriction"
   ],
   "ambiguous_terms_note": "Common in ordinary news or everyday speech. The main analysis keeps them; a robustness run drops them to check that results do not depend on them.",
   "jurisdiction_terms": {
@@ -299,11 +298,11 @@
     "Added to the ambiguous list: security, profiling, child, chip. Removed bias from it (now deleted entirely)."
   ],
   "date": "2026-10-27",
-  "signed_off": false,
-  "signed_off_by": null,
+  "signed_off": true,
+  "signed_off_by": "Anujin",
   "changelog": {
     "from": "1.0",
-    "to": "1.1",
+    "to": "1.2",
     "entries": [
       {
         "version": "1.0 -> 1.1",
@@ -577,6 +576,125 @@
         "frame": "",
         "term": "bias",
         "reason": "Mostly political or model bias, a second meaning; the term with the most hits in the frame."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "risk_safety",
+        "term": "catastrophe",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "regulation_governance",
+        "term": "harmonise",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "marginalise",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "vulnerable group",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "due process",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "right to explanation",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "economy_labour",
+        "term": "labour union",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "economy_labour",
+        "term": "labor union",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "misinformation_integrity",
+        "term": "information ecosystem",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "risk_safety",
+        "term": "guardrail",
+        "reason": "Review B: fires in 18 news chunks and 8 answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "regulation_governance",
+        "term": "legislative",
+        "reason": "Review B: the lexicon had legislation/legislate/legislature but not this form (7 news chunks, 6 answers)."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "regulation_governance",
+        "term": "oversee",
+        "reason": "Review B: the lexicon had oversight but not the verb (6 news chunks, 14 answers)."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "regulation_governance",
+        "term": "lawsuit",
+        "reason": "Review B: legal enforcement (26 news chunks, 6 answers)."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "regulation_governance",
+        "term": "human intervention",
+        "reason": "Review B: human-oversight idea (7 news chunks, 3 answers)."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "rights_privacy",
+        "term": "anonymity",
+        "reason": "Review B: privacy topic (3 news chunks, 4 answers)."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "regulation_governance",
+        "term": "restriction",
+        "reason": "Review B: restrictions on AI use (15 news chunks, 30 answers); also on the ambiguous list because it is common in everyday news."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "added to ambiguous list",
+        "frame": "",
+        "term": "restriction",
+        "reason": "Common in everyday news (travel, import restrictions); the robustness run drops it."
       }
     ],
     "drafting_cleanup_before_v1_0": {
@@ -597,5 +715,12 @@
       "reason": "Too ambiguous in news text (report, fine, monitor, tracking, capital) or redundant inflected forms removed (the scorer lemmatises terms)."
     }
   },
-  "version_note": "v1.1 = v1.0 + the changes in this changelog. Frozen only when signed_off is true."
+  "version_note": "v1.2 = v1.1 + the 1.1 -> 1.2 entries in this changelog (v1.1 snapshot: reference/frame_keywords_v1.1.json). Frozen: signed_off is true.",
+  "changes_v1_2": [
+    "Removed 9 terms with zero hits in both corpora: catastrophe, harmonise, marginalise, vulnerable group, due process, right to explanation, labour union, labor union, information ecosystem.",
+    "Added: guardrail (risk); legislative, oversee, lawsuit, human intervention, restriction (regulation); anonymity (rights).",
+    "Added to the ambiguous list: restriction.",
+    "Kept: all other terms, including the 7 that fire only 1-2 times in news; the ambiguous and prompt-echo runs in notebook 03 cover the rest."
+  ],
+  "v1_2_note": "The v1.2 edits were chosen after looking at hit counts in the news corpus and the chatbot answers (review files A and B). No H1-H3 test had been run at that point (the gates in notebooks 05 and 06 were closed). Report this in the limitations."
 }
