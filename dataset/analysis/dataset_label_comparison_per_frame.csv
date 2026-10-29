@@ -1,7 +1,7 @@
 frame,dataset_confirmed_%,ours_present_%,agreement_%,kappa,precision_vs_dataset,recall_vs_dataset
-innovation_opportunity,8.8,54.3,46.9,0.008,0.092,0.568
-risk_safety,13.1,61.9,47.9,0.113,0.185,0.873
-regulation_governance,7.9,54.3,47.9,0.027,0.092,0.636
-rights_privacy,6.7,31.4,68.6,0.073,0.106,0.5
-economy_labour,6.9,61.0,43.1,0.043,0.09,0.793
-misinformation_integrity,2.6,25.0,75.2,0.059,0.057,0.545
+innovation_opportunity,8.8,81.2,25.2,0.012,0.094,0.865
+risk_safety,13.1,87.9,24.3,0.029,0.144,0.964
+regulation_governance,7.9,93.3,14.0,0.007,0.082,0.97
+rights_privacy,6.7,61.4,43.8,0.062,0.097,0.893
+economy_labour,6.9,83.6,22.4,0.017,0.077,0.931
+misinformation_integrity,2.6,47.9,54.8,0.057,0.055,1.0

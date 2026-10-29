@@ -1,0 +1,5 @@
+scope,n_articles,agreement,kappa
+"full text, all articles with a dataset label",304,0.421,0.271
+"full text, the 25 sheet articles that have a dataset label",19,0.579,0.433
+"window shown to labellers, the same articles",19,0.368,0.146
+all 25 sheet articles: window top frame equals full-text top frame (share),25,0.68,
