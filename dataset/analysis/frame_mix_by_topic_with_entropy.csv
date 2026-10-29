@@ -1,0 +1,22 @@
+chatbot,topic_frame,n_answers,share_innovation_opportunity,share_risk_safety,share_regulation_governance,share_rights_privacy,share_economy_labour,share_misinformation_integrity,mean_rarefied_entropy_k5,pooled_entropy_of_mix
+Llama,economy_labour,18,0.233,0.103,0.155,0.011,0.497,0.0,0.471,0.704
+Llama,governance,18,0.232,0.199,0.442,0.034,0.09,0.004,0.479,0.766
+Llama,innovation,18,0.344,0.19,0.322,0.037,0.089,0.018,0.515,0.814
+Llama,misinformation,18,0.146,0.131,0.261,0.015,0.02,0.427,0.529,0.783
+Llama,rights_privacy,18,0.111,0.177,0.155,0.498,0.026,0.033,0.529,0.778
+Llama,risk_safety,18,0.187,0.555,0.201,0.01,0.043,0.003,0.437,0.65
+Llama,ALL TOPICS (pooled),108,0.216,0.229,0.252,0.097,0.146,0.06,0.493,0.944
+Qwen,economy_labour,18,0.205,0.183,0.207,0.014,0.386,0.006,0.539,0.792
+Qwen,governance,18,0.125,0.301,0.404,0.037,0.113,0.02,0.545,0.8
+Qwen,innovation,18,0.237,0.274,0.317,0.036,0.118,0.017,0.578,0.839
+Qwen,misinformation,18,0.135,0.158,0.338,0.035,0.038,0.296,0.561,0.854
+Qwen,rights_privacy,18,0.122,0.202,0.295,0.301,0.057,0.023,0.582,0.866
+Qwen,risk_safety,18,0.194,0.404,0.304,0.03,0.057,0.011,0.524,0.762
+Qwen,ALL TOPICS (pooled),108,0.174,0.258,0.312,0.066,0.13,0.06,0.555,0.91
+chatbots pooled,economy_labour,36,0.216,0.15,0.186,0.013,0.431,0.004,0.505,0.763
+chatbots pooled,governance,36,0.162,0.266,0.417,0.036,0.105,0.014,0.512,0.797
+chatbots pooled,innovation,36,0.276,0.244,0.319,0.037,0.107,0.018,0.546,0.835
+chatbots pooled,misinformation,36,0.138,0.15,0.315,0.029,0.032,0.334,0.545,0.839
+chatbots pooled,rights_privacy,36,0.117,0.192,0.237,0.382,0.044,0.027,0.555,0.845
+chatbots pooled,risk_safety,36,0.192,0.458,0.267,0.023,0.052,0.008,0.48,0.729
+chatbots pooled,ALL TOPICS (pooled),216,0.189,0.248,0.29,0.077,0.136,0.06,0.524,0.925

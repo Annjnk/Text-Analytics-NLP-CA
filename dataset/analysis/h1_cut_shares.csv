@@ -1,0 +1,15 @@
+cut,group,n_texts,words_median,share_on_topic_in_cut,share_scorable_5_hits,hits_mean
+first 300 words,Llama,108,224.0,0.556,1.0,15.833
+first 300 words,Qwen,108,288.0,0.806,1.0,26.889
+first 300 words,news,420,300.0,0.374,0.764,8.557
+first 300 words,news | US,133,300.0,0.361,0.774,8.511
+first 300 words,news | UK,101,300.0,0.426,0.822,9.079
+first 300 words,news | EU,82,300.0,0.354,0.78,8.829
+first 300 words,news | Other,104,300.0,0.356,0.683,7.894
+first 150 words,Llama,108,150.0,0.398,0.963,10.083
+first 150 words,Qwen,108,150.0,0.509,0.991,13.861
+first 150 words,news,420,150.0,0.21,0.405,4.364
+first 150 words,news | US,133,150.0,0.233,0.414,4.436
+first 150 words,news | UK,101,150.0,0.218,0.366,4.584
+first 150 words,news | EU,82,150.0,0.195,0.451,4.549
+first 150 words,news | Other,104,150.0,0.183,0.394,3.913

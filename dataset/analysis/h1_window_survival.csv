@@ -1,0 +1,13 @@
+matched_to,region,articles,articles_with_a_window,share_surviving,windows
+Llama,US,133,112,0.842,179
+Llama,UK,101,90,0.891,133
+Llama,EU,82,70,0.854,110
+Llama,Other,104,87,0.837,119
+Qwen,US,133,117,0.88,175
+Qwen,UK,101,93,0.921,128
+Qwen,EU,82,73,0.89,104
+Qwen,Other,104,95,0.913,119
+chatbots pooled,US,133,115,0.865,176
+chatbots pooled,UK,101,91,0.901,125
+chatbots pooled,EU,82,72,0.878,107
+chatbots pooled,Other,104,92,0.885,121

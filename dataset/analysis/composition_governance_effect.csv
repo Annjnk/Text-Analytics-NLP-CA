@@ -1,0 +1,4 @@
+chatbot,gov_share_chatbot_all_terms,gov_share_news_all_terms,gov_diff_all_terms,lo_all,hi_all,excludes_zero_all,gov_share_chatbot_without_overlap,gov_share_news_without_overlap,gov_diff_without_overlap,lo_without,hi_without,excludes_zero_without
+Llama,0.2606,0.2272,0.0335,-0.0311,0.1003,False,0.2262,0.1614,0.0648,0.01,0.119,True
+Qwen,0.3144,0.2272,0.0872,0.04,0.1312,True,0.2542,0.1614,0.0927,0.0487,0.1325,True
+chatbots pooled,0.2875,0.2272,0.0603,0.0063,0.1136,True,0.2402,0.1614,0.0788,0.0318,0.1221,True

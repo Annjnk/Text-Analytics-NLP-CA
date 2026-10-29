@@ -1,0 +1,19 @@
+chatbot,comparison,estimate,lo,hi,boot_mean,excludes_zero,closer_to
+Llama,JSD(US) - JSD(UK),0.0163,-0.0043,0.0401,0.016,False,UK
+Llama,JSD(US) - JSD(EU),0.0088,-0.0293,0.0429,0.0071,False,EU
+Llama,JSD(US) - JSD(Other),-0.001,-0.0301,0.0247,-0.0011,False,US
+Llama,JSD(UK) - JSD(EU),-0.0074,-0.038,0.0186,-0.0089,False,UK
+Llama,JSD(UK) - JSD(Other),-0.0172,-0.05,0.0088,-0.0171,False,UK
+Llama,JSD(EU) - JSD(Other),-0.0098,-0.0532,0.0365,-0.0082,False,EU
+Qwen,JSD(US) - JSD(UK),0.0155,-0.0041,0.0366,0.0152,False,UK
+Qwen,JSD(US) - JSD(EU),0.0104,-0.0204,0.0384,0.0088,False,EU
+Qwen,JSD(US) - JSD(Other),-0.0014,-0.0304,0.0233,-0.0018,False,US
+Qwen,JSD(UK) - JSD(EU),-0.0051,-0.031,0.0174,-0.0064,False,UK
+Qwen,JSD(UK) - JSD(Other),-0.0169,-0.0481,0.007,-0.017,False,UK
+Qwen,JSD(EU) - JSD(Other),-0.0118,-0.0491,0.0242,-0.0106,False,EU
+chatbots pooled,JSD(US) - JSD(UK),0.0158,-0.0027,0.0375,0.0156,False,UK
+chatbots pooled,JSD(US) - JSD(EU),0.0099,-0.0231,0.0397,0.0083,False,EU
+chatbots pooled,JSD(US) - JSD(Other),-0.0013,-0.0303,0.0235,-0.0016,False,US
+chatbots pooled,JSD(UK) - JSD(EU),-0.0059,-0.0328,0.0174,-0.0073,False,UK
+chatbots pooled,JSD(UK) - JSD(Other),-0.0171,-0.0483,0.0066,-0.0172,False,UK
+chatbots pooled,JSD(EU) - JSD(Other),-0.0112,-0.0497,0.0278,-0.0099,False,EU

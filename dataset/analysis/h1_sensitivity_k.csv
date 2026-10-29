@@ -1,0 +1,7 @@
+run,comparison,K,n_chatbot,n_news,chatbot_mean,news_mean,diff,diff_lo,diff_hi,excludes_zero,direction
+K=3,Llama vs news,3,108,416,0.3773,0.3775,-0.0002,-0.0229,0.0216,False,news higher
+K=3,Qwen vs news,3,108,416,0.4192,0.3775,0.0416,0.0273,0.0556,True,chatbot higher
+K=3,chatbots pooled vs news,3,216,416,0.3983,0.3775,0.0207,0.0031,0.0374,True,chatbot higher
+K=8,Llama vs news,8,103,396,0.566,0.5771,-0.0112,-0.048,0.0251,False,news higher
+K=8,Qwen vs news,8,108,396,0.6437,0.5771,0.0665,0.0414,0.0905,True,chatbot higher
+K=8,chatbots pooled vs news,8,211,396,0.6057,0.5771,0.0286,-0.0003,0.0562,False,chatbot higher

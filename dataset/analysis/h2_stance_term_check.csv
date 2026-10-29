@@ -1,0 +1,184 @@
+term,neutral,leaning_for,leaning_against,frame,per_answer_for,per_answer_against,log2_ratio_for_vs_against,total_hits
+accident,6,7,4,risk_safety,0.097,0.056,0.48,17
+accountability,49,50,34,regulation_governance,0.694,0.472,0.512,133
+accountable,19,20,14,regulation_governance,0.278,0.194,0.423,53
+advancement,16,17,13,innovation_opportunity,0.236,0.181,0.311,46
+adverse,0,2,0,risk_safety,0.028,0.0,0.637,2
+anonymity,3,0,1,rights_privacy,0.0,0.014,-0.354,4
+anonymize,1,0,1,rights_privacy,0.0,0.014,-0.354,2
+antitrust,1,0,0,economy_labour,0.0,0.0,0.0,1
+approval,21,14,20,regulation_governance,0.194,0.278,-0.423,55
+audit,2,2,3,regulation_governance,0.028,0.042,-0.237,7
+authentic,1,2,0,misinformation_integrity,0.028,0.0,0.637,3
+authenticity,2,2,0,misinformation_integrity,0.028,0.0,0.637,4
+authority,6,7,3,regulation_governance,0.097,0.042,0.684,16
+automation,7,11,5,economy_labour,0.153,0.069,0.764,23
+beneficial,11,12,24,innovation_opportunity,0.167,0.333,-0.823,47
+benefit,48,37,29,innovation_opportunity,0.514,0.403,0.317,114
+biometric,0,2,0,rights_privacy,0.028,0.0,0.637,2
+breakthrough,4,1,6,innovation_opportunity,0.014,0.083,-1.061,11
+catastrophic,7,14,1,risk_safety,0.194,0.014,1.936,22
+child,0,0,4,rights_privacy,0.0,0.056,-1.078,4
+civil liberty,6,3,2,rights_privacy,0.042,0.028,0.237,11
+compete,11,10,9,economy_labour,0.139,0.125,0.11,30
+competition,8,8,9,economy_labour,0.111,0.125,-0.119,25
+competitive,10,11,18,economy_labour,0.153,0.25,-0.565,39
+competitiveness,3,0,5,economy_labour,0.0,0.069,-1.256,8
+compliance,7,9,15,regulation_governance,0.125,0.208,-0.562,31
+comply,2,2,6,regulation_governance,0.028,0.083,-0.778,10
+consent,8,8,3,rights_privacy,0.111,0.042,0.814,19
+cost,10,6,14,economy_labour,0.083,0.194,-0.874,30
+creative,5,2,2,innovation_opportunity,0.028,0.028,0.0,9
+creativity,8,2,0,innovation_opportunity,0.028,0.0,0.637,10
+creator,10,5,7,rights_privacy,0.069,0.097,-0.302,22
+credibility,1,3,1,misinformation_integrity,0.042,0.014,0.521,5
+cut edge,0,2,5,innovation_opportunity,0.028,0.069,-0.619,7
+cyberattack,1,4,0,risk_safety,0.056,0.0,1.078,5
+cybersecurity,2,4,0,risk_safety,0.056,0.0,1.078,6
+danger,6,2,3,risk_safety,0.028,0.042,-0.237,11
+dangerous,7,5,11,risk_safety,0.069,0.153,-0.764,23
+data protection,2,1,2,rights_privacy,0.014,0.028,-0.284,5
+deceive,3,2,1,misinformation_integrity,0.028,0.014,0.284,6
+deception,2,4,0,misinformation_integrity,0.056,0.0,1.078,6
+deceptive,4,4,4,misinformation_integrity,0.056,0.056,0.0,12
+deepfake,9,12,2,misinformation_integrity,0.167,0.028,1.478,23
+dignity,8,12,0,rights_privacy,0.167,0.0,2.115,20
+disclosure,9,4,11,regulation_governance,0.056,0.153,-0.942,24
+discovery,0,2,3,innovation_opportunity,0.028,0.042,-0.237,5
+discriminate,0,6,0,rights_privacy,0.083,0.0,1.415,6
+discrimination,3,5,0,rights_privacy,0.069,0.0,1.256,8
+disinformation,3,9,3,misinformation_integrity,0.125,0.042,0.933,15
+displace,4,3,2,economy_labour,0.042,0.028,0.237,9
+displacement,4,6,2,economy_labour,0.083,0.028,0.778,12
+dominance,2,2,9,economy_labour,0.028,0.125,-1.17,13
+dominate,4,7,3,economy_labour,0.097,0.042,0.684,14
+economic,14,25,22,economy_labour,0.347,0.306,0.16,61
+economy,6,6,6,economy_labour,0.083,0.083,0.0,18
+election,4,4,0,misinformation_integrity,0.056,0.0,1.078,8
+employment,2,1,1,economy_labour,0.014,0.014,0.0,4
+enforce,13,6,8,regulation_governance,0.083,0.111,-0.273,27
+enforcement,12,6,14,regulation_governance,0.083,0.194,-0.874,32
+existential,6,0,1,risk_safety,0.0,0.014,-0.354,7
+experiment,2,2,2,innovation_opportunity,0.028,0.028,0.0,6
+experimentation,2,3,2,innovation_opportunity,0.042,0.028,0.237,7
+fabricate,1,5,0,misinformation_integrity,0.069,0.0,1.256,6
+fabrication,2,3,0,misinformation_integrity,0.042,0.0,0.874,5
+facial recognition,11,20,19,rights_privacy,0.278,0.264,0.062,50
+fact check,5,3,1,misinformation_integrity,0.042,0.014,0.521,9
+fact checker,0,1,0,misinformation_integrity,0.014,0.0,0.354,1
+failure,13,12,9,risk_safety,0.167,0.125,0.308,34
+fake,2,3,0,misinformation_integrity,0.042,0.0,0.874,5
+fall behind,0,0,2,economy_labour,0.0,0.028,-0.637,2
+false,16,15,26,misinformation_integrity,0.208,0.361,-0.67,57
+falsehood,1,2,0,misinformation_integrity,0.028,0.0,0.637,3
+fatal,1,2,0,risk_safety,0.028,0.0,0.637,3
+flourish,3,4,2,innovation_opportunity,0.056,0.028,0.441,9
+framework,39,36,30,regulation_governance,0.5,0.417,0.237,105
+fraud,1,1,0,misinformation_integrity,0.014,0.0,0.354,2
+freedom,4,7,5,rights_privacy,0.097,0.069,0.302,16
+fundamental right,3,3,1,rights_privacy,0.042,0.014,0.521,7
+global race,0,1,2,economy_labour,0.014,0.028,-0.284,3
+governance,9,11,16,regulation_governance,0.153,0.222,-0.425,36
+guardrail,3,3,3,risk_safety,0.042,0.042,0.0,9
+hallucinate,1,0,0,misinformation_integrity,0.0,0.0,0.0,1
+hallucination,0,1,2,misinformation_integrity,0.014,0.028,-0.284,3
+harm,37,45,18,risk_safety,0.625,0.25,1.17,100
+harmful,15,8,13,risk_safety,0.111,0.181,-0.517,36
+harmonize,0,0,2,regulation_governance,0.0,0.028,-0.637,2
+hazard,1,1,2,risk_safety,0.014,0.028,-0.284,4
+high stake,12,7,9,risk_safety,0.097,0.125,-0.249,28
+human intervention,1,1,2,regulation_governance,0.014,0.028,-0.284,4
+human review,15,12,11,rights_privacy,0.167,0.153,0.096,38
+human right,3,12,0,rights_privacy,0.167,0.0,2.115,15
+impersonate,1,1,0,misinformation_integrity,0.014,0.0,0.354,2
+industry,14,17,22,economy_labour,0.236,0.306,-0.313,53
+injury,1,2,0,risk_safety,0.028,0.0,0.637,3
+innovate,3,1,2,innovation_opportunity,0.014,0.028,-0.284,6
+innovation,93,56,78,innovation_opportunity,0.778,1.083,-0.453,227
+innovative,1,0,0,innovation_opportunity,0.0,0.0,0.0,1
+integrity,12,9,1,misinformation_integrity,0.125,0.014,1.454,22
+intellectual property,2,2,3,rights_privacy,0.028,0.042,-0.237,7
+international cooperation,12,5,5,regulation_governance,0.069,0.069,0.0,22
+invest,6,9,10,economy_labour,0.125,0.139,-0.11,25
+investment,7,5,10,economy_labour,0.069,0.139,-0.661,22
+investor,0,1,3,economy_labour,0.014,0.042,-0.521,4
+job,10,11,5,economy_labour,0.153,0.069,0.764,26
+jurisdiction,12,7,13,regulation_governance,0.097,0.181,-0.647,32
+labor,2,2,2,economy_labour,0.028,0.028,0.0,6
+lawsuit,0,2,5,regulation_governance,0.028,0.069,-0.619,7
+layoff,0,1,0,economy_labour,0.014,0.0,0.354,1
+legislate,0,0,2,regulation_governance,0.0,0.028,-0.637,2
+legislation,1,1,0,regulation_governance,0.014,0.0,0.354,2
+legislative,2,0,4,regulation_governance,0.0,0.056,-1.078,6
+liability,12,10,16,regulation_governance,0.139,0.222,-0.527,38
+liable,3,3,3,regulation_governance,0.042,0.042,0.0,9
+malfunction,1,6,0,risk_safety,0.083,0.0,1.415,7
+mandate,29,16,26,regulation_governance,0.222,0.361,-0.595,71
+mandatory,14,6,10,regulation_governance,0.083,0.139,-0.503,30
+manipulation,5,5,2,misinformation_integrity,0.069,0.028,0.619,12
+marginalize,1,1,0,rights_privacy,0.014,0.0,0.354,2
+market,29,28,31,economy_labour,0.389,0.431,-0.131,88
+misinformation,13,17,10,misinformation_integrity,0.236,0.139,0.599,40
+mislead,1,1,1,misinformation_integrity,0.014,0.014,0.0,3
+misuse,18,8,5,risk_safety,0.111,0.069,0.432,31
+mitigate,20,23,6,risk_safety,0.319,0.083,1.47,49
+mitigation,4,0,1,risk_safety,0.0,0.014,-0.354,5
+monopoly,2,3,3,economy_labour,0.042,0.042,0.0,8
+new product,1,0,0,innovation_opportunity,0.0,0.0,0.0,1
+offshore,2,0,2,economy_labour,0.0,0.028,-0.637,4
+opportunity,0,6,5,innovation_opportunity,0.083,0.069,0.159,11
+outsource,0,0,1,economy_labour,0.0,0.014,-0.354,1
+oversee,9,6,6,regulation_governance,0.083,0.083,0.0,21
+oversight,34,31,25,regulation_governance,0.431,0.347,0.275,90
+penalty,2,1,1,regulation_governance,0.014,0.014,0.0,4
+personal datum,13,14,7,rights_privacy,0.194,0.097,0.732,34
+policymaker,1,3,4,regulation_governance,0.042,0.056,-0.204,8
+potential,79,56,29,innovation_opportunity,0.778,0.403,0.87,164
+privacy,20,27,15,rights_privacy,0.375,0.208,0.718,62
+productivity,6,1,3,economy_labour,0.014,0.042,-0.521,10
+profile,1,2,0,rights_privacy,0.028,0.0,0.637,3
+profit,6,14,1,economy_labour,0.194,0.014,1.936,21
+progress,32,19,32,innovation_opportunity,0.264,0.444,-0.656,83
+propaganda,3,2,1,misinformation_integrity,0.028,0.014,0.284,6
+provenance,1,2,0,misinformation_integrity,0.028,0.0,0.637,3
+public discourse,1,4,2,misinformation_integrity,0.056,0.028,0.441,7
+regulator,19,23,28,regulation_governance,0.319,0.389,-0.248,70
+regulatory,40,32,54,regulation_governance,0.444,0.75,-0.694,126
+reliability,6,6,4,risk_safety,0.083,0.056,0.337,16
+relocate,2,0,4,economy_labour,0.0,0.056,-1.078,6
+research and development,2,2,12,innovation_opportunity,0.028,0.167,-1.478,16
+restriction,16,4,17,regulation_governance,0.056,0.236,-1.439,37
+revenue,2,0,1,economy_labour,0.0,0.014,-0.354,3
+risk,99,62,70,risk_safety,0.861,0.972,-0.166,231
+robustness,1,0,0,risk_safety,0.0,0.0,0.0,1
+safe,15,14,17,risk_safety,0.194,0.236,-0.227,46
+safeguard,23,25,7,risk_safety,0.347,0.097,1.432,55
+safety,99,71,82,risk_safety,0.986,1.139,-0.198,252
+security,20,24,22,risk_safety,0.333,0.306,0.109,66
+sensitive datum,1,0,0,rights_privacy,0.0,0.0,0.0,1
+small business,1,0,1,economy_labour,0.0,0.014,-0.354,2
+standard,46,41,38,regulation_governance,0.569,0.528,0.1,125
+start up,14,11,17,innovation_opportunity,0.153,0.236,-0.497,42
+startup,11,10,15,innovation_opportunity,0.139,0.208,-0.452,36
+statute,0,0,1,regulation_governance,0.0,0.014,-0.354,1
+stereotype,1,2,0,rights_privacy,0.028,0.0,0.637,3
+subsidy,1,0,0,economy_labour,0.0,0.0,0.0,1
+surveillance,7,11,3,rights_privacy,0.153,0.042,1.145,21
+synthetic medium,3,6,2,misinformation_integrity,0.083,0.028,0.778,11
+threat,6,7,10,risk_safety,0.097,0.139,-0.36,23
+thrive,1,2,7,innovation_opportunity,0.028,0.097,-0.921,10
+trade,3,3,3,economy_labour,0.042,0.042,0.0,9
+transform,0,2,0,innovation_opportunity,0.028,0.0,0.637,2
+transformative,9,6,3,innovation_opportunity,0.083,0.042,0.541,18
+transparency,52,38,33,regulation_governance,0.528,0.458,0.185,123
+treaty,0,0,2,regulation_governance,0.0,0.028,-0.637,2
+unemployment,2,3,1,economy_labour,0.042,0.014,0.521,6
+unintended,9,11,16,risk_safety,0.153,0.222,-0.425,36
+unpredictable,1,3,5,risk_safety,0.042,0.069,-0.382,9
+unsafe,0,0,1,risk_safety,0.0,0.014,-0.354,1
+vulnerability,6,10,2,risk_safety,0.139,0.028,1.28,18
+wage,1,2,1,economy_labour,0.028,0.014,0.284,4
+watermark,1,1,0,misinformation_integrity,0.014,0.0,0.354,2
+weapon,3,3,0,risk_safety,0.042,0.0,0.874,6
+worker,13,14,9,economy_labour,0.194,0.125,0.482,36
+workforce,1,6,3,economy_labour,0.083,0.042,0.541,10

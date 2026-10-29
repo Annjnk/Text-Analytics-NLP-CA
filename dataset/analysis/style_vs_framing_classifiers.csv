@@ -1,16 +1,16 @@
 features,split,n_folds,auc_mean,auc_sd,balanced_acc_mean
 A style (all texts),outlets/questions held out,5,1.0,0.0,1.0
-A style (all texts),"train Llama, test Qwen",5,1.0,0.0,0.966
-A style (all texts),"train Qwen, test Llama",5,0.998,0.001,0.906
-A style (texts with >= 5 hits),outlets/questions held out,5,1.0,0.0,1.0
-A style (texts with >= 5 hits),"train Llama, test Qwen",5,1.0,0.0,0.971
-A style (texts with >= 5 hits),"train Qwen, test Llama",5,0.999,0.0,0.914
-B frame mix (texts with >= 5 hits),outlets/questions held out,5,0.679,0.065,0.664
-B frame mix (texts with >= 5 hits),"train Llama, test Qwen",5,0.7,0.008,0.687
-B frame mix (texts with >= 5 hits),"train Qwen, test Llama",5,0.691,0.048,0.645
-A + B (texts with >= 5 hits),outlets/questions held out,5,1.0,0.0,1.0
-A + B (texts with >= 5 hits),"train Llama, test Qwen",5,1.0,0.0,0.971
-A + B (texts with >= 5 hits),"train Qwen, test Llama",5,0.999,0.0,0.919
-"B frame mix (all texts, zero-hit texts = all-zero vector)",outlets/questions held out,5,0.67,0.086,0.64
-"B frame mix (all texts, zero-hit texts = all-zero vector)","train Llama, test Qwen",5,0.69,0.058,0.723
-"B frame mix (all texts, zero-hit texts = all-zero vector)","train Qwen, test Llama",5,0.674,0.049,0.636
+A style (all texts),"train Llama, test Qwen",5,0.998,0.0,0.888
+A style (all texts),"train Qwen, test Llama",5,0.999,0.001,0.899
+A style (texts with >= 5 hits),outlets/questions held out,5,1.0,0.0,0.999
+A style (texts with >= 5 hits),"train Llama, test Qwen",5,0.998,0.002,0.887
+A style (texts with >= 5 hits),"train Qwen, test Llama",5,0.999,0.001,0.901
+B frame mix (texts with >= 5 hits),outlets/questions held out,5,0.7,0.071,0.647
+B frame mix (texts with >= 5 hits),"train Llama, test Qwen",5,0.741,0.033,0.681
+B frame mix (texts with >= 5 hits),"train Qwen, test Llama",5,0.719,0.011,0.663
+A + B (texts with >= 5 hits),outlets/questions held out,5,1.0,0.0,0.999
+A + B (texts with >= 5 hits),"train Llama, test Qwen",5,0.998,0.002,0.894
+A + B (texts with >= 5 hits),"train Qwen, test Llama",5,0.999,0.001,0.908
+"B frame mix (all texts, zero-hit texts = all-zero vector)",outlets/questions held out,5,0.697,0.079,0.655
+"B frame mix (all texts, zero-hit texts = all-zero vector)","train Llama, test Qwen",5,0.74,0.035,0.68
+"B frame mix (all texts, zero-hit texts = all-zero vector)","train Qwen, test Llama",5,0.71,0.028,0.657

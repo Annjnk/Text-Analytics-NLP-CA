@@ -1,0 +1,19 @@
+run,comparison,n_chatbot,n_news,chatbot_mean,news_mean,diff,diff_lo,diff_hi,excludes_zero,direction,excluded_chatbot,excluded_news
+lexicon: no governance frame,Llama vs news,103,399,0.4449,0.4673,-0.0224,-0.0604,0.0158,False,news higher,5,21
+lexicon: no governance frame,Qwen vs news,108,399,0.5424,0.4673,0.0751,0.0417,0.1069,True,chatbot higher,5,21
+lexicon: no governance frame,chatbots pooled vs news,211,399,0.4948,0.4673,0.0275,-0.0062,0.0611,False,chatbot higher,5,21
+lexicon: no ambiguous terms,Llama vs news,103,393,0.4543,0.4818,-0.0274,-0.0762,0.0204,False,news higher,5,27
+lexicon: no ambiguous terms,Qwen vs news,108,393,0.5443,0.4818,0.0625,0.0358,0.0878,True,chatbot higher,5,27
+lexicon: no ambiguous terms,chatbots pooled vs news,211,393,0.5004,0.4818,0.0186,-0.0173,0.0533,False,chatbot higher,5,27
+"lexicon: no prompt-echo terms (own prompt, chatbots only)",Llama vs news,107,413,0.5301,0.4969,0.0332,0.0073,0.0585,True,chatbot higher,1,7
+"lexicon: no prompt-echo terms (own prompt, chatbots only)",Qwen vs news,108,413,0.5595,0.4969,0.0627,0.0425,0.081,True,chatbot higher,1,7
+"lexicon: no prompt-echo terms (own prompt, chatbots only)",chatbots pooled vs news,215,413,0.5449,0.4969,0.048,0.0265,0.0682,True,chatbot higher,1,7
+"lexicon: no prompt-echo terms (all prompt terms, both groups)",Llama vs news,106,410,0.5182,0.5012,0.0169,-0.0074,0.0421,False,chatbot higher,2,10
+"lexicon: no prompt-echo terms (all prompt terms, both groups)",Qwen vs news,108,410,0.5563,0.5012,0.055,0.0343,0.0738,True,chatbot higher,2,10
+"lexicon: no prompt-echo terms (all prompt terms, both groups)",chatbots pooled vs news,214,410,0.5374,0.5012,0.0362,0.0152,0.0566,True,chatbot higher,2,10
+lexicon: no 'lawsuit',Llama vs news,108,413,0.4936,0.4945,-0.0009,-0.0319,0.03,False,news higher,0,7
+lexicon: no 'lawsuit',Qwen vs news,108,413,0.5547,0.4945,0.0602,0.0391,0.0799,True,chatbot higher,0,7
+lexicon: no 'lawsuit',chatbots pooled vs news,216,413,0.5241,0.4945,0.0296,0.0046,0.0536,True,chatbot higher,0,7
+"lexicon: all terms (reference, = main)",Llama vs news,108,413,0.4931,0.4969,-0.0037,-0.0349,0.0266,False,news higher,0,7
+"lexicon: all terms (reference, = main)",Qwen vs news,108,413,0.5547,0.4969,0.0579,0.0372,0.0778,True,chatbot higher,0,7
+"lexicon: all terms (reference, = main)",chatbots pooled vs news,216,413,0.5239,0.4969,0.0271,0.0022,0.0507,True,chatbot higher,0,7

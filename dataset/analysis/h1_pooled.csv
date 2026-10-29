@@ -1,0 +1,4 @@
+run,comparison,N_hits_drawn,chatbot_pooled_entropy,news_pooled_entropy,diff,diff_lo,diff_hi,excludes_zero,direction,boot_mean_diff,diff_lo_basic,diff_hi_basic,basic_excludes_zero
+pooled counts,Llama vs news,1710,0.9441,0.9345,0.0096,-0.0725,0.0434,False,chatbot higher,-0.0073,-0.0242,0.0917,False
+pooled counts,Qwen vs news,2983,0.9101,0.9348,-0.0247,-0.072,0.0127,False,news higher,-0.0289,-0.062,0.0227,False
+pooled counts,chatbots pooled vs news,4693,0.9251,0.935,-0.01,-0.0686,0.0257,False,news higher,-0.0191,-0.0456,0.0487,False

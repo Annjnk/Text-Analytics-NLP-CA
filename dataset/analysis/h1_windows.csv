@@ -1,0 +1,4 @@
+run,comparison,n_chatbot,n_news,chatbot_mean,news_mean,diff,diff_lo,diff_hi,excludes_zero,direction
+topic-selected length-matched windows,Llama vs news,108,411,0.4931,0.4953,-0.0022,-0.0346,0.0302,False,news higher
+topic-selected length-matched windows,Qwen vs news,108,437,0.5547,0.4878,0.0669,0.0442,0.0884,True,chatbot higher
+topic-selected length-matched windows,chatbots pooled vs news,216,426,0.5239,0.4854,0.0385,0.0128,0.065,True,chatbot higher

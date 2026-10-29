@@ -1,0 +1,19 @@
+chatbot,frame,diff_share,lo,hi,excludes_zero
+Llama,innovation_opportunity,0.0901,0.0429,0.1431,True
+Llama,risk_safety,-0.0316,-0.0988,0.0507,False
+Llama,regulation_governance,0.0335,-0.0311,0.1003,False
+Llama,rights_privacy,0.0031,-0.0719,0.0946,False
+Llama,economy_labour,-0.1141,-0.1876,-0.022,True
+Llama,misinformation_integrity,0.019,-0.0484,0.101,False
+Qwen,innovation_opportunity,0.0477,0.0174,0.0772,True
+Qwen,risk_safety,-0.002,-0.0503,0.0484,False
+Qwen,regulation_governance,0.0872,0.04,0.1312,True
+Qwen,rights_privacy,-0.0209,-0.0642,0.0309,False
+Qwen,economy_labour,-0.1135,-0.1716,-0.0413,True
+Qwen,misinformation_integrity,0.0014,-0.0457,0.0579,False
+chatbots pooled,innovation_opportunity,0.0689,0.0321,0.1077,True
+chatbots pooled,risk_safety,-0.0168,-0.0711,0.0463,False
+chatbots pooled,regulation_governance,0.0603,0.0063,0.1136,True
+chatbots pooled,rights_privacy,-0.0089,-0.0672,0.0626,False
+chatbots pooled,economy_labour,-0.1138,-0.1792,-0.0326,True
+chatbots pooled,misinformation_integrity,0.0102,-0.0466,0.0786,False

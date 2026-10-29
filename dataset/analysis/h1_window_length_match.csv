@@ -1,0 +1,4 @@
+matched_to,windows,window_words_mean,window_words_median,answer_words_mean,answer_words_median,ks_window_vs_answer,windows_shorter_than_target,windows_under_5_hits
+Llama,541,222.88,223.0,223.22,224.0,0.03,2,130
+Qwen,526,295.45,291.0,294.84,288.0,0.05,5,89
+chatbots pooled,529,260.45,267.0,259.03,259.0,0.04,4,103

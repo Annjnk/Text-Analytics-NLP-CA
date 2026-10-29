@@ -1,0 +1,17 @@
+texts,entropy,against,n,spearman_rho
+chatbots pooled,before (plain entropy),word count,216,0.495
+chatbots pooled,before (plain entropy),hit count,216,0.485
+chatbots pooled,"after (rarefied, K=5)",word count,216,0.293
+chatbots pooled,"after (rarefied, K=5)",hit count,216,0.2
+Llama,before (plain entropy),word count,108,0.031
+Llama,before (plain entropy),hit count,108,0.033
+Llama,"after (rarefied, K=5)",word count,108,-0.017
+Llama,"after (rarefied, K=5)",hit count,108,-0.166
+Qwen,before (plain entropy),word count,108,-0.078
+Qwen,before (plain entropy),hit count,108,0.145
+Qwen,"after (rarefied, K=5)",word count,108,-0.103
+Qwen,"after (rarefied, K=5)",hit count,108,-0.036
+news,before (plain entropy),word count,413,0.209
+news,before (plain entropy),hit count,413,0.213
+news,"after (rarefied, K=5)",word count,413,0.052
+news,"after (rarefied, K=5)",hit count,413,-0.073

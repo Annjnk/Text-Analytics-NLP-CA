@@ -1,0 +1,49 @@
+group,frame,n_texts,n_clusters,mean_share,lo,hi
+Llama,innovation_opportunity,108,18,0.2271,0.1766,0.2845
+Llama,risk_safety,108,18,0.2308,0.1648,0.3133
+Llama,regulation_governance,108,18,0.2262,0.1729,0.2774
+Llama,rights_privacy,108,18,0.1011,0.0248,0.1922
+Llama,economy_labour,108,18,0.1341,0.0632,0.2234
+Llama,misinformation_integrity,108,18,0.0807,0.012,0.1629
+Qwen,innovation_opportunity,108,18,0.1847,0.1548,0.2146
+Qwen,risk_safety,108,18,0.2751,0.2263,0.3258
+Qwen,regulation_governance,108,18,0.2542,0.2135,0.2908
+Qwen,rights_privacy,108,18,0.0812,0.0368,0.1351
+Qwen,economy_labour,108,18,0.1387,0.0851,0.2092
+Qwen,misinformation_integrity,108,18,0.0662,0.0162,0.1245
+chatbots pooled,innovation_opportunity,216,18,0.2059,0.168,0.2456
+chatbots pooled,risk_safety,216,18,0.2529,0.1989,0.3166
+chatbots pooled,regulation_governance,216,18,0.2402,0.1961,0.2805
+chatbots pooled,rights_privacy,216,18,0.0911,0.0304,0.1628
+chatbots pooled,economy_labour,216,18,0.1364,0.0749,0.2164
+chatbots pooled,misinformation_integrity,216,18,0.0734,0.014,0.1411
+news (all),innovation_opportunity,420,285,0.1321,0.1181,0.1473
+news (all),risk_safety,420,285,0.2769,0.2542,0.2991
+news (all),regulation_governance,420,285,0.1614,0.1468,0.1768
+news (all),rights_privacy,420,285,0.1039,0.0884,0.1205
+news (all),economy_labour,420,285,0.2593,0.2316,0.2863
+news (all),misinformation_integrity,420,285,0.0664,0.0552,0.0788
+news | US,innovation_opportunity,133,108,0.1246,0.1003,0.1522
+news | US,risk_safety,133,108,0.2755,0.2369,0.3143
+news | US,regulation_governance,133,108,0.1594,0.1333,0.1872
+news | US,rights_privacy,133,108,0.1048,0.0829,0.1301
+news | US,economy_labour,133,108,0.2852,0.2423,0.3286
+news | US,misinformation_integrity,133,108,0.0505,0.0336,0.0698
+news | UK,innovation_opportunity,101,87,0.1459,0.1209,0.1755
+news | UK,risk_safety,101,87,0.2791,0.2357,0.321
+news | UK,regulation_governance,101,87,0.1446,0.1218,0.1699
+news | UK,rights_privacy,101,87,0.1088,0.0801,0.1423
+news | UK,economy_labour,101,87,0.2424,0.1966,0.2897
+news | UK,misinformation_integrity,101,87,0.0792,0.0571,0.1033
+news | EU,innovation_opportunity,82,76,0.1265,0.0968,0.1607
+news | EU,risk_safety,82,76,0.2569,0.2102,0.3037
+news | EU,regulation_governance,82,76,0.1767,0.1442,0.2106
+news | EU,rights_privacy,82,76,0.1332,0.0957,0.1744
+news | EU,economy_labour,82,76,0.2199,0.1674,0.2762
+news | EU,misinformation_integrity,82,76,0.0868,0.0597,0.1168
+news | Other,innovation_opportunity,104,75,0.1327,0.1035,0.1652
+news | Other,risk_safety,104,75,0.2922,0.2442,0.3387
+news | Other,regulation_governance,104,75,0.1684,0.1355,0.2006
+news | Other,rights_privacy,104,75,0.075,0.0513,0.1056
+news | Other,economy_labour,104,75,0.2736,0.2238,0.3281
+news | Other,misinformation_integrity,104,75,0.0581,0.0383,0.0839

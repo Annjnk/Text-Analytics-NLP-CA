@@ -1,0 +1,10 @@
+run,comparison,rule,n_chatbot,n_news,chatbot_mean,news_mean,diff,diff_lo,diff_hi,excludes_zero,direction
+bounds: (a) excluded scored at the minimum (0),Llama vs news,(a) excluded scored at the minimum (0),108,420,0.4931,0.4886,0.0046,-0.0276,0.0362,False,chatbot higher
+bounds: (a) excluded scored at the minimum (0),Qwen vs news,(a) excluded scored at the minimum (0),108,420,0.5547,0.4886,0.0662,0.0445,0.0872,True,chatbot higher
+bounds: (a) excluded scored at the minimum (0),chatbots pooled vs news,(a) excluded scored at the minimum (0),216,420,0.5239,0.4886,0.0354,0.0099,0.0599,True,chatbot higher
+bounds: (b) excluded scored at the group median,Llama vs news,(b) excluded scored at the group median,108,420,0.4931,0.4971,-0.004,-0.0351,0.0263,False,news higher
+bounds: (b) excluded scored at the group median,Qwen vs news,(b) excluded scored at the group median,108,420,0.5547,0.4971,0.0576,0.037,0.0774,True,chatbot higher
+bounds: (b) excluded scored at the group median,chatbots pooled vs news,(b) excluded scored at the group median,216,420,0.5239,0.4971,0.0268,0.0022,0.0503,True,chatbot higher
+bounds: (c) excluded scored at the maximum,Llama vs news,(c) excluded scored at the maximum,108,420,0.4931,0.5035,-0.0104,-0.0419,0.0202,False,news higher
+bounds: (c) excluded scored at the maximum,Qwen vs news,(c) excluded scored at the maximum,108,420,0.5547,0.5035,0.0512,0.0304,0.0715,True,chatbot higher
+bounds: (c) excluded scored at the maximum,chatbots pooled vs news,(c) excluded scored at the maximum,216,420,0.5239,0.5035,0.0204,-0.0046,0.0441,False,chatbot higher
