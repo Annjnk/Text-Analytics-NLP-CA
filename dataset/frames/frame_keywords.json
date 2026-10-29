@@ -586,6 +586,13 @@
       },
       {
         "version": "1.1 -> 1.2",
+        "action": "added",
+        "frame": "risk_safety",
+        "term": "guardrail",
+        "reason": "Review B: fires in 18 news chunks and 8 answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
         "action": "removed",
         "frame": "regulation_governance",
         "term": "harmonise",
@@ -593,59 +600,17 @@
       },
       {
         "version": "1.1 -> 1.2",
-        "action": "removed",
-        "frame": "rights_privacy",
-        "term": "marginalise",
-        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
-      },
-      {
-        "version": "1.1 -> 1.2",
-        "action": "removed",
-        "frame": "rights_privacy",
-        "term": "vulnerable group",
-        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
-      },
-      {
-        "version": "1.1 -> 1.2",
-        "action": "removed",
-        "frame": "rights_privacy",
-        "term": "due process",
-        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
-      },
-      {
-        "version": "1.1 -> 1.2",
-        "action": "removed",
-        "frame": "rights_privacy",
-        "term": "right to explanation",
-        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
-      },
-      {
-        "version": "1.1 -> 1.2",
-        "action": "removed",
-        "frame": "economy_labour",
-        "term": "labour union",
-        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
-      },
-      {
-        "version": "1.1 -> 1.2",
-        "action": "removed",
-        "frame": "economy_labour",
-        "term": "labor union",
-        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
-      },
-      {
-        "version": "1.1 -> 1.2",
-        "action": "removed",
-        "frame": "misinformation_integrity",
-        "term": "information ecosystem",
-        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+        "action": "added",
+        "frame": "regulation_governance",
+        "term": "human intervention",
+        "reason": "Review B: human-oversight idea (7 news chunks, 3 answers)."
       },
       {
         "version": "1.1 -> 1.2",
         "action": "added",
-        "frame": "risk_safety",
-        "term": "guardrail",
-        "reason": "Review B: fires in 18 news chunks and 8 answers."
+        "frame": "regulation_governance",
+        "term": "lawsuit",
+        "reason": "Review B: legal enforcement (26 news chunks, 6 answers)."
       },
       {
         "version": "1.1 -> 1.2",
@@ -665,15 +630,36 @@
         "version": "1.1 -> 1.2",
         "action": "added",
         "frame": "regulation_governance",
-        "term": "lawsuit",
-        "reason": "Review B: legal enforcement (26 news chunks, 6 answers)."
+        "term": "restriction",
+        "reason": "Review B: restrictions on AI use (15 news chunks, 30 answers); also on the ambiguous list because it is common in everyday news."
       },
       {
         "version": "1.1 -> 1.2",
-        "action": "added",
-        "frame": "regulation_governance",
-        "term": "human intervention",
-        "reason": "Review B: human-oversight idea (7 news chunks, 3 answers)."
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "due process",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "marginalise",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "right to explanation",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "rights_privacy",
+        "term": "vulnerable group",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
       },
       {
         "version": "1.1 -> 1.2",
@@ -684,10 +670,24 @@
       },
       {
         "version": "1.1 -> 1.2",
-        "action": "added",
-        "frame": "regulation_governance",
-        "term": "restriction",
-        "reason": "Review B: restrictions on AI use (15 news chunks, 30 answers); also on the ambiguous list because it is common in everyday news."
+        "action": "removed",
+        "frame": "economy_labour",
+        "term": "labor union",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "economy_labour",
+        "term": "labour union",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
+      },
+      {
+        "version": "1.1 -> 1.2",
+        "action": "removed",
+        "frame": "misinformation_integrity",
+        "term": "information ecosystem",
+        "reason": "Review A: zero hits in the first 300 words of all 420 news articles and all 216 chatbot answers."
       },
       {
         "version": "1.1 -> 1.2",
@@ -715,7 +715,7 @@
       "reason": "Too ambiguous in news text (report, fine, monitor, tracking, capital) or redundant inflected forms removed (the scorer lemmatises terms)."
     }
   },
-  "version_note": "v1.2 = v1.1 + the 1.1 -> 1.2 entries in this changelog (v1.1 snapshot: reference/frame_keywords_v1.1.json). Frozen: signed_off is true.",
+  "version_note": "v1.2 = v1.1 + the 1.1 -> 1.2 entries in this changelog (v1.1 snapshot: reference/frame_keywords_v1.1.json). Frozen only when signed_off is true.",
   "changes_v1_2": [
     "Removed 9 terms with zero hits in both corpora: catastrophe, harmonise, marginalise, vulnerable group, due process, right to explanation, labour union, labor union, information ecosystem.",
     "Added: guardrail (risk); legislative, oversee, lawsuit, human intervention, restriction (regulation); anonymity (rights).",

@@ -1,13 +1,4 @@
 frame,term,ambiguous,hits_chatbot,hits_news,proposal
-economy_labour,labour union,False,0,0,drop candidate (no hits anywhere)
-economy_labour,labor union,False,0,0,drop candidate (no hits anywhere)
-misinformation_integrity,information ecosystem,False,0,0,drop candidate (no hits anywhere)
-regulation_governance,harmonise,False,0,0,drop candidate (no hits anywhere)
-rights_privacy,marginalise,False,0,0,drop candidate (no hits anywhere)
-rights_privacy,vulnerable group,False,0,0,drop candidate (no hits anywhere)
-rights_privacy,due process,False,0,0,drop candidate (no hits anywhere)
-rights_privacy,right to explanation,False,0,0,drop candidate (no hits anywhere)
-risk_safety,catastrophe,False,0,0,drop candidate (no hits anywhere)
 economy_labour,supply chain,False,0,39,keep (fires in news)
 economy_labour,chip,True,0,14,keep (fires in news)
 economy_labour,export control,False,0,12,keep (fires in news)

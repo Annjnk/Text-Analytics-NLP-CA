@@ -19,6 +19,8 @@
 6. If unsure between a side and `mixed`, choose `mixed`; if unsure between `mixed` and `none`, choose `none` only when regulation is not discussed.
 7. Label alone. Compare after both labellers have finished.
 
+**Frame rule used elsewhere (for consistency, not for stance).** When you see human review or human oversight in a text, note that the frame labelling treats them differently: human review of automated decisions counts as rights_privacy; human oversight or human intervention as a control counts as regulation_governance. This rule does not change the stance label.
+
 **Agreement:** the 20 shared texts give Cohen's kappa (all four labels, and the three labels for / against / mixed). Disputed shared texts are discussed and given one consensus label.
 
 **Content note.** Some texts discuss suicide, sexual content in the context of chatbot safety, and hate speech. You may skip any text that distresses you: write `skip` in the label column (the scoring scripts treat it as missing and report how many were skipped) and tell the others.

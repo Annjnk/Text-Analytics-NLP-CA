@@ -1,33 +1,33 @@
-term,proposed_frame,doc_id,caution,news_chunks_with_term,answers_with_term
-guardrail,risk_safety,news_0277,,18,8
-parental control,risk_safety,news_0253,child-safety group; 'child' and 'child safety' are already in rights_privacy,2,0
-teenager,risk_safety,news_0277,ambiguous topic word; consider with 'child' as one group,3,0
-suicide,risk_safety,news_0253,sensitive harm term; very rare in regulation framing,16,0
-violent,risk_safety,news_0277,,4,1
-explicit content,risk_safety,news_0405,article is about sexualised chatbot content,2,0
-hate speech,risk_safety,news_0414,harmful-content topic,3,0
-antisemitic,risk_safety,news_0414,topic word; spelling variants (anti-Semitic) need lemma check,3,0
-superintelligence,risk_safety,news_0170,,2,1
-rogue,risk_safety,news_0038,headline word; check frequency before adding,1,0
-autonomous,risk_safety,news_0170,also appears in product news (news_0082): ambiguous,41,35
-attacker,risk_safety,news_0164,,13,1
-lawsuit,regulation_governance,news_0253,legal enforcement; check overlap with litigation,26,6
-court,regulation_governance,news_0267,very general word,34,4
-legislative,regulation_governance,news_0378,the lexicon has legislation / legislate / legislature but not this form,7,6
-oversee,regulation_governance,news_0170,the lexicon has oversight but not the verb,6,14
-human intervention,regulation_governance,news_0082,human-oversight idea; 'human oversight' and 'human in the loop' also candidates,7,3
-restriction,regulation_governance,news_0131,ambiguous: 'ban' and 'prohibit' too general,15,30
-anonymity,rights_privacy,news_0300,,3,4
-censorship,rights_privacy,news_0304,free-expression topic; 'content filter' is a candidate too,1,2
-private data,rights_privacy,news_0164,phrase; 'personal data' is already in the lexicon,2,1
-patent,rights_privacy,news_0250,intellectual property; or innovation? needs a decision,3,0
-acquisition,economy_labour,news_0213,"corporate news, not regulation framing",5,1
-valuation,economy_labour,news_0105,"corporate news, not regulation framing",6,0
-plagiarism,misinformation_integrity,news_0040,academic integrity; 'cheating' and 'academic dishonesty' also candidates,1,0
-academic dishonesty,misinformation_integrity,news_0040,,1,0
-inaccurate,misinformation_integrity,news_0261,"also 'incorrect', 'accuracy'; overlaps hallucination",3,3
-problematic,misinformation_integrity,news_0279,very general word,2,14
-echo chamber,misinformation_integrity,news_0086,"this example is newsletter boilerplate, not article text: low value",2,1
-news ecosystem,misinformation_integrity,news_0134,the lexicon has 'information ecosystem',1,0
-sycophancy,risk_safety,news_0324,or misinformation_integrity; needs a decision,3,0
-political bias,misinformation_integrity,news_0265,"'bias' alone was removed in v1.1 (second meaning); phrases 'political bias', 'algorithmic bias', 'implicit bias' could be tested. Do NOT add 'woke' (stance-laden)",1,0
+term,proposed_frame,doc_id,caution,news_chunks_with_term,answers_with_term,status
+guardrail,risk_safety,news_0277,,18,8,added in v1.2
+parental control,risk_safety,news_0253,child-safety group; 'child' and 'child safety' are already in rights_privacy,2,0,"proposal, not added"
+teenager,risk_safety,news_0277,ambiguous topic word; consider with 'child' as one group,3,0,"proposal, not added"
+suicide,risk_safety,news_0253,sensitive harm term; very rare in regulation framing,16,0,"proposal, not added"
+violent,risk_safety,news_0277,,4,1,"proposal, not added"
+explicit content,risk_safety,news_0405,article is about sexualised chatbot content,2,0,"proposal, not added"
+hate speech,risk_safety,news_0414,harmful-content topic,3,0,"proposal, not added"
+antisemitic,risk_safety,news_0414,topic word; spelling variants (anti-Semitic) need lemma check,3,0,"proposal, not added"
+superintelligence,risk_safety,news_0170,,2,1,"proposal, not added"
+rogue,risk_safety,news_0038,headline word; check frequency before adding,1,0,"proposal, not added"
+autonomous,risk_safety,news_0170,also appears in product news (news_0082): ambiguous,41,35,"proposal, not added"
+attacker,risk_safety,news_0164,,13,1,"proposal, not added"
+lawsuit,regulation_governance,news_0253,legal enforcement; check overlap with litigation,26,6,added in v1.2
+court,regulation_governance,news_0267,very general word,34,4,"proposal, not added"
+legislative,regulation_governance,news_0378,the lexicon has legislation / legislate / legislature but not this form,7,6,added in v1.2
+oversee,regulation_governance,news_0170,the lexicon has oversight but not the verb,6,14,added in v1.2
+human intervention,regulation_governance,news_0082,human-oversight idea; 'human oversight' and 'human in the loop' also candidates,7,3,added in v1.2
+restriction,regulation_governance,news_0131,ambiguous: 'ban' and 'prohibit' too general,15,30,added in v1.2
+anonymity,rights_privacy,news_0300,,3,4,added in v1.2
+censorship,rights_privacy,news_0304,free-expression topic; 'content filter' is a candidate too,1,2,"proposal, not added"
+private data,rights_privacy,news_0164,phrase; 'personal data' is already in the lexicon,2,1,"proposal, not added"
+patent,rights_privacy,news_0250,intellectual property; or innovation? needs a decision,3,0,"proposal, not added"
+acquisition,economy_labour,news_0213,"corporate news, not regulation framing",5,1,"proposal, not added"
+valuation,economy_labour,news_0105,"corporate news, not regulation framing",6,0,"proposal, not added"
+plagiarism,misinformation_integrity,news_0040,academic integrity; 'cheating' and 'academic dishonesty' also candidates,1,0,"proposal, not added"
+academic dishonesty,misinformation_integrity,news_0040,,1,0,"proposal, not added"
+inaccurate,misinformation_integrity,news_0261,"also 'incorrect', 'accuracy'; overlaps hallucination",3,3,"proposal, not added"
+problematic,misinformation_integrity,news_0279,very general word,2,14,"proposal, not added"
+echo chamber,misinformation_integrity,news_0086,"this example is newsletter boilerplate, not article text: low value",2,1,"proposal, not added"
+news ecosystem,misinformation_integrity,news_0134,the lexicon has 'information ecosystem',1,0,"proposal, not added"
+sycophancy,risk_safety,news_0324,or misinformation_integrity; needs a decision,3,0,"proposal, not added"
+political bias,misinformation_integrity,news_0265,"'bias' alone was removed in v1.1 (second meaning); phrases 'political bias', 'algorithmic bias', 'implicit bias' could be tested. Do NOT add 'woke' (stance-laden)",1,0,"proposal, not added"

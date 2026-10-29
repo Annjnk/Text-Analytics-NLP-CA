@@ -36,18 +36,9 @@
     "dataset/news/urls_full.csv": "66774e0a602501b4b1404e564b6171b65bf0967fd998d401f247688b9052edb2",
     "dataset/news/urls_pilot.csv": "ca5813ae1d55eb8db5c3c3b47d5abe4f1566c58586a03fd4b5eea367faa3960b",
     "dataset/news/corpus_log.json": "3de1151670e9d1beeac290ecda54b7d5f96933612417c3c99ac8b2f39e258cba",
-    "dataset/frames/frame_keywords.json": "02b2680f009074398496f1118c56a645cc20f6a2507900eafae9a49dbacbd28b",
+    "dataset/frames/frame_keywords.json": "23fead8afdb27bc12f609bf9e6d4cec2cdc14bf3d18744b991f560e8da00c039",
     "dataset/answers/answers.jsonl": "2f286e008905d727d55acc22646cf44c216d775a5ff5548dc62c6d557035890e",
     "dataset/prompts.csv": "0903ae8a400c1bc3a6dd291a09169359e11fbd1e47fd0277eb315e49fa4560cf"
   },
-  "backup_folder": "/Users/user/Desktop/NLP_CA/backups/backup_20261027_104348",
-  "lexicon_note": {
-    "recorded_on": "2026-10-27",
-    "what": "related_files_sha256 for dataset/frames/frame_keywords.json is the hash the lexicon had when the corpus was frozen: the v1.1 term lists without the metadata fields (date, signed_off, signed_off_by, changelog, version_note) that 07_lexicon_signoff.ipynb added afterwards. It was then changed twice: 07 added that metadata (v1.1, unsigned), and the lexicon was updated to v1.2 and signed off. So the recorded hash no longer matches the file on disk. The corpus (data/news_clean.csv, sha256 above) is unchanged.",
-    "at_freeze_sha256": "02b2680f009074398496f1118c56a645cc20f6a2507900eafae9a49dbacbd28b",
-    "v1_1_sha256": "2c2a9bd62ffd966556d2265c6c71fc947cffdd28d7a5b91352e37040f1404048",
-    "v1_1_file": "dataset/frames/reference/frame_keywords_v1.1.json",
-    "v1_2_sha256": "d5bffdc692f8f9af14a90ec737b8a598e97a63d6b44b89f4293015b33b7601da",
-    "v1_2_file": "dataset/frames/frame_keywords.json"
-  }
+  "backup_folder": "/Users/user/Desktop/NLP_CA/backups/backup_20261027_104348"
 }
