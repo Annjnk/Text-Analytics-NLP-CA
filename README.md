@@ -4,8 +4,8 @@ Text Analytics & NLP, CA1, National College of Ireland (BSHDS4).
 
 | Name | Student ID |
 |---|---|
-| Laith Waqas Mohammed Ahmad | x23103493 |
 | Anujin Ariunbold | x23171286 |
+| Laith Waqas Mohammed Ahmad | x23103493 |
 | Uuganbayar Enkhbaatar | x23176377 |
 
 ## Research question
