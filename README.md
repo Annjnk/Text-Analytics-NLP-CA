@@ -41,6 +41,7 @@ The six frames are innovation/opportunity, risk/safety, regulation/governance, r
 ├── config.json                # every data path, read by all notebooks
 ├── framescore.py              # lexicon matcher and rarefied entropy
 ├── agreement.py               # Cohen's kappa and per-class agreement
+├── report_numbers.py          # builds docs/report_numbers.md from the result files
 ├── requirements.txt           # dependencies (version ranges)
 ├── requirements.lock.txt      # exact versions used for the results
 ├── collect_answers.ipynb      # 01: collect the chatbot answers
@@ -53,7 +54,7 @@ The six frames are innovation/opportunity, risk/safety, regulation/governance, r
 │   ├── news/                  # URL lists, corpus log, corpus manifest (hashes)
 │   ├── frames/                # lexicon v1.2, changelog, codebooks, review files
 │   └── analysis/              # result tables and figures, RESULTS.md, DECISIONS.md
-├── docs/                      # data_licensing_ethics.md, limitations.md
+├── docs/                      # data_licensing_ethics.md, limitations.md, report_numbers.md
 └── data/                      # NOT committed (git-ignored): article text, labelling sheets
 ```
 
@@ -68,11 +69,11 @@ git clone https://github.com/Annjnk/Text-Analytics-NLP-CA
 cd Text-Analytics-NLP-CA
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
-pip install -r requirements.txt    # or requirements.lock.txt for the exact versions
+pip install -r requirements.txt    # or requirements.lock.txt for the exact versions (it also installs the spaCy model)
 python -m spacy download en_core_web_sm
 ```
 
-Main versions used for the results (full list in `requirements.lock.txt`): pandas 2.3.3, numpy 2.5.4, spaCy 3.8.16, scikit-learn 1.9.1, nltk 3.10.3, vaderSentiment 3.3.2, trafilatura 2.3.1, matplotlib 3.11.2.
+Main versions in `requirements.lock.txt` (a clean install; the committed results were reproduced from it, byte for byte): pandas 2.3.3, numpy 2.5.4, spaCy 3.8.18, scikit-learn 1.9.1, nltk 3.10.4, vaderSentiment 3.3.2, trafilatura 2.3.1, matplotlib 3.11.2.
 
 Create a `.env` file in the repository root (it is git-ignored). It is only needed to scrape news:
 
@@ -111,9 +112,9 @@ Run the notebooks in this order. Every notebook reads its paths from `config.jso
 | 8 | `07_lexicon_signoff.ipynb` | Lexicon version, changelog and review files | `dataset/frames/*` |
 | 9 | `08_validation_and_dataset_labels.ipynb` | Frame validation sheet, dictionary vs human labels, dictionary vs the dataset's own labels | `validation_*.csv`, `dataset_label_comparison_*.csv` |
 | 10 | `09_stance_and_actors.ipynb` | Stance labelling sheets, inter-annotator agreement, stance baseline, named-entity actors | `stance_*.csv`, `actors_*.csv` |
-| 11 | `10_limitations_and_ethics.ipynb` | Regenerates the ethics and limitations text from the result files | `docs/*.md` |
+| 11 | `10_limitations_and_ethics.ipynb` | Regenerates the ethics and limitations text and the report numbers from the result files | `docs/*.md` |
 
-Steps 3 to 11 need `data/news_clean.csv`. Steps 9 and 10 also need the labelled sheets in `data/` (see `dataset/frames/validation_instructions.md` and `dataset/frames/stance_codebook.md`). Without them, those notebooks run their tests on dummy labels and skip the real scores.
+Step 3 (`02_...`) also runs on the chatbot answers alone. Steps 4 to 11 need `data/news_clean.csv` (steps 5, 8 and 11 also `data/scraped.csv`, step 9 also the dataset file `data/genai_gdelt_articles.parquet`): without it each of them stops at its first cell with a message that names the missing file, before reading or writing anything, so the committed tables in `dataset/analysis/` are never overwritten. Steps 9 and 10 also use the labelled sheets in `data/` (see `dataset/frames/validation_instructions.md` and `dataset/frames/stance_codebook.md`). Without them, those notebooks run their tests on dummy labels and skip the real scores.
 
 ## Reproducibility
 
