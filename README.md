@@ -1,12 +1,12 @@
 # Framing AI regulation: chatbot answers vs news
 
-Text Analytics & NLP, CA1, National College of Ireland (BSHDS4).
+Text Analytics & NLP, CA1 (50%), National College of Ireland (BSHDS4). Lecturer: Dr. Abdul Razzaq.
 
-| Name | Student ID |
-|---|---|
-| Anujin Ariunbold | x23171286 |
-| Laith Waqas Mohammed Ahmad | x23103493 |
-| Uuganbayar Enkhbaatar | x23176377 |
+| Name | Student ID | Email | Role |
+|---|---|---|---|
+| Anujin Ariunbold | x23171286 | x23171286@student.ncirl.ie | Chatbot answers, ethics and licensing |
+| Laith Waqas Mohammed Ahmad | x23103493 | x23103493@student.ncirl.ie | Lexicon review, analysis checks, README |
+| Uuganbayar Enkhbaatar | x23176377 | x23176377@student.ncirl.ie | News corpus |
 
 ## Research question
 
@@ -15,6 +15,15 @@ How do AI chatbot answers and news articles differ in their emphasis on AI regul
 - **H1:** chatbot answers spread their emphasis more evenly across six frames (higher rarefied frame entropy) than news articles.
 - **H2:** that gap is smaller for leaning prompts (leaning_for / leaning_against) than for neutral prompts.
 - **H3 (exploratory):** chatbot frame distributions are closer to some news regions (US, UK, EU, Other) than others (Jensen-Shannon divergence).
+
+## Key findings
+
+- **H1, partly supported:** Qwen answers spread their emphasis more evenly than news (+0.058, 95% CI [+0.037, +0.078]); Llama answers do not (−0.004 [−0.035, +0.027]); pooled, chatbots are slightly more even (+0.027 [+0.002, +0.051]).
+- **H2, not supported:** prompt wording does not change the chatbot-minus-news gap.
+- **H3, no region reliably closer:** the UK is nearest by point estimate, but no paired region difference excludes zero.
+- **Style vs framing:** writing style separates chatbot answers from news almost perfectly (AUC 1.00); the six-frame mix alone reaches about 0.70.
+
+Stance agreement and frame-validation scores will be added once both labellers have finished.
 
 The six frames are innovation/opportunity, risk/safety, regulation/governance, rights/privacy, economy/labour and misinformation/integrity. Results are summarised in [`dataset/analysis/RESULTS.md`](dataset/analysis/RESULTS.md), and every analysis decision, with its date, is in [`dataset/analysis/DECISIONS.md`](dataset/analysis/DECISIONS.md).
 
