@@ -1,0 +1,50 @@
+scope,human_frame,dictionary_frame,count
+all scored texts,innovation_opportunity,innovation_opportunity,5
+all scored texts,risk_safety,risk_safety,9
+all scored texts,risk_safety,regulation_governance,4
+all scored texts,risk_safety,economy_labour,1
+all scored texts,regulation_governance,regulation_governance,5
+all scored texts,regulation_governance,economy_labour,3
+all scored texts,rights_privacy,risk_safety,1
+all scored texts,rights_privacy,regulation_governance,2
+all scored texts,rights_privacy,rights_privacy,3
+all scored texts,economy_labour,innovation_opportunity,1
+all scored texts,economy_labour,regulation_governance,1
+all scored texts,economy_labour,economy_labour,7
+all scored texts,misinformation_integrity,misinformation_integrity,1
+all scored texts,none,innovation_opportunity,2
+all scored texts,none,regulation_governance,2
+all scored texts,none,economy_labour,1
+chatbot,innovation_opportunity,innovation_opportunity,5
+chatbot,risk_safety,risk_safety,3
+chatbot,regulation_governance,regulation_governance,3
+chatbot,regulation_governance,economy_labour,2
+chatbot,rights_privacy,regulation_governance,2
+chatbot,rights_privacy,rights_privacy,2
+chatbot,economy_labour,regulation_governance,1
+chatbot,economy_labour,economy_labour,4
+chatbot,none,regulation_governance,2
+news,risk_safety,risk_safety,6
+news,risk_safety,regulation_governance,4
+news,risk_safety,economy_labour,1
+news,regulation_governance,regulation_governance,2
+news,regulation_governance,economy_labour,1
+news,rights_privacy,risk_safety,1
+news,rights_privacy,rights_privacy,1
+news,economy_labour,innovation_opportunity,1
+news,economy_labour,economy_labour,3
+news,misinformation_integrity,misinformation_integrity,1
+news,none,innovation_opportunity,2
+news,none,economy_labour,1
+"news, window passes the on-topic rule",risk_safety,risk_safety,6
+"news, window passes the on-topic rule",risk_safety,regulation_governance,3
+"news, window passes the on-topic rule",risk_safety,economy_labour,1
+"news, window passes the on-topic rule",regulation_governance,regulation_governance,2
+"news, window passes the on-topic rule",regulation_governance,economy_labour,1
+"news, window passes the on-topic rule",rights_privacy,risk_safety,1
+"news, window passes the on-topic rule",rights_privacy,rights_privacy,1
+"news, window passes the on-topic rule",economy_labour,innovation_opportunity,1
+"news, window passes the on-topic rule",economy_labour,economy_labour,2
+"news, window passes the on-topic rule",misinformation_integrity,misinformation_integrity,1
+"news, window passes the on-topic rule",none,innovation_opportunity,2
+"news, window passes the on-topic rule",none,economy_labour,1

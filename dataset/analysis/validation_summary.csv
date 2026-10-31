@@ -1,0 +1,4 @@
+scope,n,skipped,accuracy,kappa
+all,48,2.0,0.625,0.542
+chatbot,24,,0.708,0.638
+news,24,,0.542,0.419

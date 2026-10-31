@@ -1,0 +1,29 @@
+scope,frame,n_scored,n_human,n_dictionary,true_positive,precision,recall,kappa_one_vs_rest,vs_bar_0.6
+all scored texts,innovation_opportunity,48,5,8,5,0.625,1.0,0.735,at or above
+all scored texts,risk_safety,48,14,10,9,0.9,0.643,0.67,at or above
+all scored texts,regulation_governance,48,8,14,5,0.357,0.625,0.308,below
+all scored texts,rights_privacy,48,6,3,3,1.0,0.5,0.636,at or above
+all scored texts,economy_labour,48,9,12,7,0.583,0.778,0.576,below
+all scored texts,misinformation_integrity,48,1,1,1,1.0,1.0,1.0,at or above
+all scored texts,none,48,5,0,0,,0.0,0.0,below
+chatbot,innovation_opportunity,24,5,5,5,1.0,1.0,1.0,at or above
+chatbot,risk_safety,24,3,3,3,1.0,1.0,1.0,at or above
+chatbot,regulation_governance,24,5,8,3,0.375,0.6,0.276,below
+chatbot,rights_privacy,24,4,2,2,1.0,0.5,0.625,at or above
+chatbot,economy_labour,24,5,6,4,0.667,0.8,0.647,at or above
+chatbot,misinformation_integrity,24,0,0,0,,,,undefined (frame absent in both)
+chatbot,none,24,2,0,0,,0.0,0.0,below
+news,innovation_opportunity,24,0,3,0,0.0,,0.0,below
+news,risk_safety,24,11,7,6,0.857,0.545,0.482,below
+news,regulation_governance,24,3,6,2,0.333,0.667,0.333,below
+news,rights_privacy,24,2,1,1,1.0,0.5,0.647,at or above
+news,economy_labour,24,4,6,3,0.5,0.75,0.5,below
+news,misinformation_integrity,24,1,1,1,1.0,1.0,1.0,at or above
+news,none,24,3,0,0,,0.0,0.0,below
+"news, window passes the on-topic rule",innovation_opportunity,22,0,3,0,0.0,,0.0,below
+"news, window passes the on-topic rule",risk_safety,22,10,7,6,0.857,0.6,0.53,below
+"news, window passes the on-topic rule",regulation_governance,22,3,5,2,0.4,0.667,0.397,below
+"news, window passes the on-topic rule",rights_privacy,22,2,1,1,1.0,0.5,0.645,at or above
+"news, window passes the on-topic rule",economy_labour,22,3,5,2,0.4,0.667,0.397,below
+"news, window passes the on-topic rule",misinformation_integrity,22,1,1,1,1.0,1.0,1.0,at or above
+"news, window passes the on-topic rule",none,22,3,0,0,,0.0,0.0,below

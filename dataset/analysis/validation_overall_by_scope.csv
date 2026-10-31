@@ -1,0 +1,5 @@
+scope,n_scored,n_skipped,agreement,kappa_all_labels
+all scored texts,48,2,0.625,0.542
+chatbot,24,1,0.708,0.638
+news,24,1,0.542,0.419
+"news, window passes the on-topic rule",22,1,0.545,0.423
