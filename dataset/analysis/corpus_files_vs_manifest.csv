@@ -1,0 +1,10 @@
+file,present,bytes,matches_manifest
+data/news_clean.csv,True,2997765,True
+data/scraped.csv,True,11463777,True
+dataset/news/urls_full.csv,True,350413,True
+dataset/news/urls_pilot.csv,True,9203,True
+dataset/news/corpus_log.json,True,1498,True
+dataset/frames/frame_keywords.json,True,22597,True
+dataset/answers/answers.jsonl,True,533072,True
+dataset/prompts.csv,True,17327,True
+data/genai_gdelt_articles.parquet (not in the manifest),True,90425481,

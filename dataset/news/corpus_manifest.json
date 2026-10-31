@@ -40,5 +40,5 @@
     "dataset/answers/answers.jsonl": "2f286e008905d727d55acc22646cf44c216d775a5ff5548dc62c6d557035890e",
     "dataset/prompts.csv": "0903ae8a400c1bc3a6dd291a09169359e11fbd1e47fd0277eb315e49fa4560cf"
   },
-  "backup_folder": "/Users/user/Desktop/NLP_CA/backups/backup_20261027_104348"
+  "backup_folder": "not part of the repository (a local backup made on the authors' machine when the corpus was frozen)"
 }
