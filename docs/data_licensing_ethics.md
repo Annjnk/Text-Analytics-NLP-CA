@@ -14,7 +14,7 @@
 |---|---|
 | URL list (URL, month, region, outlet, quarter), sampling and cleaning log, corpus manifest with file hashes | scraped pages and the cleaned corpus (`data/scraped.csv`, `data/news_clean.csv`) |
 | per-text frame scores and counts, lexicon, actor and entropy tables, chatbot answers and prompts | the dataset parquet file (about 90 MB, re-downloadable) |
-| a few audit tables that carry **article titles and URLs** (never body text): `dataset/analysis/near_duplicates_remaining.csv`, `dataset/analysis/dedup_removed_articles.csv`, `dataset/analysis/near_duplicate_clusters.csv`, `dataset/analysis/dataset_label_disagreement_examples.csv`; and, as the only body text, about thirty short example quotations (at most about 20 words each) in `07_lexicon_signoff.ipynb`, used to document candidate lexicon terms | validation and stance labelling sheets, review files and low-hit samples, because they contain article text |
+| a few audit tables that carry **article titles and URLs** (never body text): `dataset/analysis/near_duplicates_remaining.csv`, `dataset/analysis/dedup_removed_articles.csv`, `dataset/analysis/near_duplicate_clusters.csv`, `dataset/analysis/dataset_label_disagreement_examples.csv` | validation and stance labelling sheets, review files, low-hit samples and the short quotations read while proposing lexicon terms (`data/lexicon_review_examples.csv`), because they contain article text |
 
 The submission ZIP must exclude `data/`. Anyone can rebuild the corpus from the URL list, the notebooks and `config.json`.
 
