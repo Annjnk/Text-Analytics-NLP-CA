@@ -1,0 +1,8 @@
+stance_id,labelled_by,labeller,prompt_wording,prompt_direction,label,relation,note
+S012,A and B,A,leaning_for,for,against,contradiction,flagging check only; not a label source
+S029,A and B,A,leaning_against,against,for,contradiction,flagging check only; not a label source
+S044,A only,A,leaning_against,against,for,contradiction,flagging check only; not a label source
+S021,A only,A,leaning_for,for,none,other (mixed or none),flagging check only; not a label source
+S045,A only,A,leaning_against,against,none,other (mixed or none),flagging check only; not a label source
+S053,A and B,A,leaning_for,for,mixed,other (mixed or none),flagging check only; not a label source
+S058,A and B,A,leaning_for,for,mixed,other (mixed or none),flagging check only; not a label source

@@ -1,0 +1,5 @@
+reference,for,against,mixed,none
+for,2,1,1,0
+against,1,0,0,0
+mixed,5,0,1,3
+none,0,0,0,6

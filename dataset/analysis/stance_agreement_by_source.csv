@@ -1,0 +1,4 @@
+scope,n,agreement,kappa_4_labels
+all shared texts,20,0.45,0.254
+shared chatbot texts,10,0.3,-0.148
+shared news texts,10,0.6,0.13

@@ -1,0 +1,7 @@
+labeller,scope,wording,for,against,mixed,none,n
+A,all chatbot texts this labeller labelled,neutral,1,0,3,0,4
+A,all chatbot texts this labeller labelled,leaning_for,5,1,2,1,9
+A,all chatbot texts this labeller labelled,leaning_against,2,4,0,1,7
+B,all chatbot texts this labeller labelled,neutral,5,0,5,0,10
+B,all chatbot texts this labeller labelled,leaning_for,6,0,0,0,6
+B,all chatbot texts this labeller labelled,leaning_against,0,4,0,0,4

@@ -1,0 +1,7 @@
+reference,model,n,accuracy,macro_f1,kappa_vs_human
+labeller A only (n=40),majority class,40,0.375,0.136,0.0
+labeller A only (n=40),VADER features + logistic regression,40,0.375,0.326,0.147
+labeller A only (n=40),TF-IDF (1-2 grams) + logistic regression,40,0.475,0.357,0.238
+labeller B only (n=40),majority class,40,0.45,0.155,0.0
+labeller B only (n=40),VADER features + logistic regression,40,0.55,0.494,0.364
+labeller B only (n=40),TF-IDF (1-2 grams) + logistic regression,40,0.65,0.452,0.473

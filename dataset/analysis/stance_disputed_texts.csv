@@ -1,0 +1,12 @@
+stance_id,source,labeller_A,labeller_B
+S001,chatbot,for,mixed
+S004,chatbot,mixed,for
+S008,news,mixed,none
+S012,chatbot,against,for
+S029,chatbot,for,against
+S031,chatbot,mixed,for
+S038,news,mixed,none
+S050,news,mixed,none
+S052,news,mixed,for
+S053,chatbot,mixed,for
+S058,chatbot,mixed,for

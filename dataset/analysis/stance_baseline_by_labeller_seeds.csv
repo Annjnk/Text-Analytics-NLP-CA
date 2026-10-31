@@ -1,0 +1,7 @@
+model,accuracy_mean,accuracy_min,accuracy_max,macro_f1_mean,macro_f1_min,macro_f1_max,kappa_vs_human_mean,kappa_vs_human_min,kappa_vs_human_max,reference,seeds
+TF-IDF (1-2 grams) + logistic regression,0.461,0.375,0.55,0.351,0.285,0.439,0.226,0.11,0.357,labeller A only (n=40),20
+VADER features + logistic regression,0.275,0.2,0.375,0.243,0.178,0.362,0.026,-0.079,0.159,labeller A only (n=40),20
+majority class,0.375,0.375,0.375,0.136,0.136,0.136,0.0,0.0,0.0,labeller A only (n=40),20
+TF-IDF (1-2 grams) + logistic regression,0.719,0.625,0.775,0.493,0.371,0.589,0.565,0.423,0.648,labeller B only (n=40),20
+VADER features + logistic regression,0.544,0.425,0.625,0.479,0.369,0.564,0.352,0.207,0.458,labeller B only (n=40),20
+majority class,0.45,0.45,0.45,0.155,0.155,0.155,0.0,0.0,0.0,labeller B only (n=40),20

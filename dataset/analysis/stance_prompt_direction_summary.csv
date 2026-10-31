@@ -1,0 +1,5 @@
+labeller,scope,n_chatbot_texts,n_leaning_prompts,match,contradiction,other_mixed_or_none,share_match,share_contradiction,share_other
+A,all chatbot texts this labeller labelled,20,16,9,3,4,0.562,0.188,0.25
+A,the 10 chatbot texts both labelled,10,6,2,2,2,0.333,0.333,0.333
+B,all chatbot texts this labeller labelled,20,10,10,0,0,1.0,0.0,0.0
+B,the 10 chatbot texts both labelled,10,6,6,0,0,1.0,0.0,0.0
