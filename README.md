@@ -22,8 +22,8 @@ How do AI chatbot answers and news articles differ in their emphasis on AI regul
 - **H2, not supported:** prompt wording does not change the chatbot-minus-news gap.
 - **H3, no region reliably closer:** the UK is nearest by point estimate, but no paired region difference excludes zero.
 - **Style vs framing:** writing style separates chatbot answers from news almost perfectly (AUC 1.00); the six-frame mix alone reaches about 0.70.
-
-Stance agreement and frame-validation scores will be added once both labellers have finished.
+- **Stance:** the two labellers agreed only weakly on the 20 shared texts (agreement 0.45, kappa 0.25 on four labels) before settling the disputed texts together. Against the adjudicated labels, the stance baselines (VADER, TF-IDF) score well above chance on all texts mostly because chatbot answers and news differ (kappa +0.19 and +0.50); within chatbot texts they reach +0.01 and +0.15, and within news texts +0.02 and +0.00.
+- **Frame validation:** one labelled sheet (48 texts scored, 2 skipped). The dictionary's top frame agrees with the human label for 62.5% of texts (kappa 0.54; chatbot texts 0.64, news texts 0.42). Frames below the 0.6 bar: regulation/governance (0.31), economy/labour (0.58). There is no second labeller, so no frame reliability figure. Details and caveats are in `dataset/analysis/RESULTS.md`.
 
 The six frames are innovation/opportunity, risk/safety, regulation/governance, rights/privacy, economy/labour and misinformation/integrity. Results are summarised in [`dataset/analysis/RESULTS.md`](dataset/analysis/RESULTS.md), and every analysis decision, with its date, is in [`dataset/analysis/DECISIONS.md`](dataset/analysis/DECISIONS.md).
 
