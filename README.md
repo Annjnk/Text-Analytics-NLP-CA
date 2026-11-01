@@ -2,12 +2,6 @@
 
 Text Analytics & NLP, CA1 (50%), National College of Ireland (BSHDS4). Lecturer: Dr. Abdul Razzaq.
 
-| Name | Student ID | Email | Role |
-|---|---|---|---|
-| Anujin Ariunbold | x23171286 | x23171286@student.ncirl.ie | Chatbot answers, ethics and licensing |
-| Laith Waqas Mohammed Ahmad | x23103493 | x23103493@student.ncirl.ie | Lexicon review, analysis checks, README |
-| Uuganbayar Enkhbaatar | x23176377 | x23176377@student.ncirl.ie | News corpus |
-
 ## Research question
 
 How do AI chatbot answers and news articles differ in their emphasis on AI regulation frames, and how does this vary across prompt wording and news region?
@@ -114,7 +108,7 @@ Run the notebooks in this order. Every notebook reads its paths from `config.jso
 | 10 | `09_stance_and_actors.ipynb` | Stance labelling sheets, inter-annotator agreement, stance baseline, named-entity actors | `stance_*.csv`, `actors_*.csv` |
 | 11 | `10_limitations_and_ethics.ipynb` | Regenerates the ethics and limitations text and the report numbers from the result files | `docs/*.md` |
 
-Step 3 (`02_...`) also runs on the chatbot answers alone. Steps 4 to 11 need `data/news_clean.csv` (steps 5, 8 and 11 also `data/scraped.csv`, step 9 also the dataset file `data/genai_gdelt_articles.parquet`): without it each of them stops at its first cell with a message that names the missing file, before reading or writing anything, so the committed tables in `dataset/analysis/` are never overwritten. Steps 9 and 10 also use the labelled sheets in `data/` (see `dataset/frames/validation_instructions.md` and `dataset/frames/stance_codebook.md`). Without them, those notebooks run their tests on dummy labels and skip the real scores.
+Step 3 (`02_chatbot_text_analysis.ipynb`) also runs on the chatbot answers alone. Steps 4 to 11 need `data/news_clean.csv` (steps 5, 8 and 11 also `data/scraped.csv`, step 9 also the dataset file `data/genai_gdelt_articles.parquet`): without it each of them stops at its first cell with a message that names the missing file, before reading or writing anything, so the committed tables in `dataset/analysis/` are never overwritten. Steps 9 and 10 also use the labelled sheets in `data/` (see `dataset/frames/validation_instructions.md` and `dataset/frames/stance_codebook.md`). Without them, those notebooks run their tests on dummy labels and skip the real scores.
 
 ## Reproducibility
 
